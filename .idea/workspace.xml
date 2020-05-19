@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f689de63-c226-4526-81a3-1bc66e897b6d" name="Default Changelist" comment="" />
+    <list default="true" id="f689de63-c226-4526-81a3-1bc66e897b6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/Junit5SuiteDemo1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/Junit5SuiteDemo2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/Junit5Demo2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase1/Junit5Demo1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase2/Junit5Demo1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/DemoPutin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo_RecordAfterPutin1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo_RecordAfterPutin2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/Junit5Demo1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/Junit5Demo1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/junit5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/junit5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Junit5TestDemo/target/test-classes/testcase/Junit5Demo1Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/testcase/TestNgTest1.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/Junit4TestDemo/target/" />
     <ignored path="$PROJECT_DIR$/Junit5TestDemo/target/" />
     <ignored path="$PROJECT_DIR$/TestNGTestDemo/target/" />
@@ -23,14 +39,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="24" />
           <entry key="txt" value="2" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="24" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="5" />
         </counts>
@@ -38,15 +54,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="1361" />
-          <entry key="txt" value="2121" />
+          <entry key="java" value="2163" />
+          <entry key="txt" value="2375" />
           <entry key="xml" value="274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1361" />
-          <entry key="PLAIN_TEXT" value="2144" />
+          <entry key="JAVA" value="2163" />
+          <entry key="PLAIN_TEXT" value="2398" />
           <entry key="XML" value="274" />
         </counts>
       </usages-collector>
@@ -54,11 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/Junit5Demo1Test.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/Junit5Demo1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="88">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
               <folding>
                 <element signature="e#119#120#0" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
@@ -80,99 +96,96 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/suite/junit4.txt">
+        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/Junit5Demo2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/junit5.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/suite/SuiteDemoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="84">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/testcase/LoginTest.java">
+        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase1/Junit5Demo1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="194">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/testcase/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="29" />
-              <folding>
-                <element signature="e#130#145#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/testcase/BuyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/testcase/Junit4Demo1Test.java">
+        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/Junit5SuiteDemo1Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/testcase/Junit4Demo2Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/Junit5SuiteDemo2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase2/Junit5Demo1Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="48" />
+              <folding>
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/junit5.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/DemoPutin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo_RecordAfterPutin1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo_RecordAfterPutin2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -185,6 +198,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -203,8 +219,21 @@
         <option value="$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/testcase/BaseTest.java" />
         <option value="$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/suite/junit4.txt" />
         <option value="$PROJECT_DIR$/Junit5TestDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/junit5.txt" />
         <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/Junit5Demo1Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/LoginTest.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/junit5.txt" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcase/LoginTest.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcase1/Junit5Demo1Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcase2/Junit5Demo1Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase2/Junit5Demo1Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/Junit5Demo1Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase1/Junit5Demo1Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/Junit5SuiteDemo1Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/Junit5Demo2Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/Junit5SuiteDemo2Test.java" />
+        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/junit5.txt" />
+        <option value="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/TestNgTest1.java" />
+        <option value="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo_RecordAfterPutin1.java" />
       </list>
     </option>
   </component>
@@ -233,6 +262,9 @@
     <option name="width" value="1364" />
     <option name="height" value="1049" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -247,6 +279,41 @@
               <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
               <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNGTestDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNGTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNGTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNGTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNGTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +324,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589886523597" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589890548299" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hgwztest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -266,6 +333,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.testcaseinfo.testcase" />
+      <recent name="com.testcase2" />
+      <recent name="com.testcase1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaproject\hogwarts\Junit5TestDemo\src\test\java\com" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,67 +356,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Junit4Demo1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit4TestDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devlop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testcase" />
-      <option name="MAIN_CLASS_NAME" value="com.testcase.Junit4Demo1Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Junit4Demo2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit4TestDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devlop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testcase" />
-      <option name="MAIN_CLASS_NAME" value="com.testcase.Junit4Demo2Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Junit5Demo1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Demo_RecordAfterPutin2">
+    <configuration name="Junit5SuiteDemo2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5TestDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcase" />
-      <option name="MAIN_CLASS_NAME" value="testcase.Junit5Demo1Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Junit5Demo1Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit5TestDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcase" />
-      <option name="MAIN_CLASS_NAME" value="testcase.Junit5Demo1Test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuiteDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit4TestDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.suite.*" />
@@ -347,25 +366,91 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.suite" />
-      <option name="MAIN_CLASS_NAME" value="com.suite.SuiteDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.suite.Junit5SuiteDemo2Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_RecordAfterPutin1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTestDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.testcase.Demo_RecordAfterPutin1" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_RecordAfterPutin2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTestDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.testcase.Demo_RecordAfterPutin2" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgTest1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTestDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.testcase.TestNgTest1" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgTest1.putIntD" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTestDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.testcase.TestNgTest1" />
+      <option name="METHOD_NAME" value="putIntD" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Junit4Demo1Test" />
-      <item itemvalue="JUnit.Junit5Demo1Test.test1" />
-      <item itemvalue="JUnit.Junit5Demo1Test" />
-      <item itemvalue="JUnit.Junit4Demo2Test" />
-      <item itemvalue="JUnit.SuiteDemoTest" />
+      <item itemvalue="JUnit.Junit5SuiteDemo2Test" />
+      <item itemvalue="TestNG.TestNgTest1" />
+      <item itemvalue="TestNG.TestNgTest1.putIntD" />
+      <item itemvalue="TestNG.Demo_RecordAfterPutin1" />
+      <item itemvalue="TestNG.Demo_RecordAfterPutin2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Junit5Demo1Test" />
-        <item itemvalue="JUnit.Junit5Demo1Test.test1" />
-        <item itemvalue="JUnit.SuiteDemoTest" />
-        <item itemvalue="JUnit.Junit4Demo2Test" />
-        <item itemvalue="JUnit.Junit4Demo1Test" />
+        <item itemvalue="TestNG.Demo_RecordAfterPutin2" />
+        <item itemvalue="TestNG.Demo_RecordAfterPutin1" />
+        <item itemvalue="TestNG.TestNgTest1" />
+        <item itemvalue="TestNG.TestNgTest1.putIntD" />
+        <item itemvalue="JUnit.Junit5SuiteDemo2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -380,47 +465,48 @@
       <option name="presentableId" value="Default" />
       <updated>1589863186654</updated>
       <workItem from="1589863187970" duration="6704000" />
-      <workItem from="1589873985551" duration="6808000" />
+      <workItem from="1589873985551" duration="10693000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Junit4Test2 - 2020.05.19 at 14h 59m 05s.xml">
-      <configuration name="Junit4Test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SuiteDemoTest - 2020.05.19 at 17h 20m 32s.xml">
-      <configuration name="SuiteDemoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SuiteDemoTest - 2020.05.19 at 17h 21m 12s.xml">
-      <configuration name="SuiteDemoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Junit5Demo1Test_test1 - 2020.05.19 at 17h 43m 35s.xml">
-      <configuration name="Junit5Demo1Test.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Junit5Demo1Test - 2020.05.19 at 17h 46m 40s.xml">
-      <configuration name="Junit5Demo1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Junit5Demo1Test - 2020.05.19 at 17h 47m 17s.xml">
-      <configuration name="Junit5Demo1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Junit5Demo1Test - 2020.05.19 at 17h 48m 10s.xml">
-      <configuration name="Junit5Demo1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Junit5Demo1Test - 2020.05.19 at 17h 51m 55s.xml">
-      <configuration name="Junit5Demo1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Junit5Demo1Test - 2020.05.19 at 17h 52m 22s.xml">
-      <configuration name="Junit5Demo1Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Junit5Demo1Test - 2020.05.19 at 17h 52m 28s.xml">
       <configuration name="Junit5Demo1Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginTest - 2020.05.19 at 19h 33m 30s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit5SuiteDemo1Test - 2020.05.19 at 19h 52m 12s.xml">
+      <configuration name="Junit5SuiteDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit5SuiteDemo1Test - 2020.05.19 at 19h 55m 39s.xml">
+      <configuration name="Junit5SuiteDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit5SuiteDemo1Test - 2020.05.19 at 19h 55m 58s.xml">
+      <configuration name="Junit5SuiteDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Junit5SuiteDemo2Test - 2020.05.19 at 20h 03m 49s.xml">
+      <configuration name="Junit5SuiteDemo2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNgTest1 - 2020.05.19 at 20h 09m 22s.xml">
+      <configuration name="TestNgTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNgTest1 - 2020.05.19 at 20h 09m 46s.xml">
+      <configuration name="TestNgTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNgTest1_putIntD - 2020.05.19 at 20h 10m 01s.xml">
+      <configuration name="TestNgTest1.putIntD" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNgTest1 - 2020.05.19 at 20h 10m 28s.xml">
+      <configuration name="TestNgTest1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13512000" />
+    <option name="totallyTimeSpent" value="17397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24865952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -430,17 +516,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17008798" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38325992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.13782991" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.38179147" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3240469" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32305434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,17 +584,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/testcase/Junit4DemoTest1.java" />
     <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/testcase/Junit4DemoTest2.java" />
-    <entry file="file://$PROJECT_DIR$/TestNGTestDemo/src/test/java/testcase/TestNgTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Junit4TestDemo/src/main/java/com/devlop/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -617,17 +692,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/junit5.txt">
+    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="-198">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/testcase/Junit5Demo1Test.java">
+    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase2/Junit5Demo1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase1/Junit5Demo1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/Junit5Demo1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
             <element signature="e#119#120#0" expanded="true" />
             <element signature="e#155#156#0" expanded="true" />
@@ -644,6 +741,65 @@
             <element signature="e#696#697#0" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/testcase/Junit5Demo2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/Junit5SuiteDemo1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" selection-start-line="8" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/Junit5SuiteDemo2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/junit5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo_RecordAfterPutin2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/DemoPutin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo_RecordAfterPutin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>

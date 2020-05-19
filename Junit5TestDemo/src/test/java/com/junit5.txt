@@ -40,7 +40,7 @@ JUnit5注解
     @AfterAll   static
     @BeforeEach
     @AfterEach
-    @Nested
+    @Nested      内嵌测试执行顺序倒序
     @Disabled    类似 Ignore
     @DisplayName 测试展示处的名称
     @ParameterizedTest
@@ -49,3 +49,37 @@ JUnit5注解
 JUnit5执行过程
 
 套件测试
+    junit5套件执行
+        @RunWith(JUnitPlatform.class)
+        @SelectPackages({"com.packageA","com.packageB"})
+        @IncludePackages("包名")
+
+    实际：
+    @RunWith(JUnitPlatform.class)
+    @SelectPackages({
+            "com.testcaseinfo"
+    })
+    @IncludePackages({
+            "com.testcaseinfo.testcase",
+            "com.testcaseinfo.testcase2"
+    })
+    public class Junit5SuiteDemo1Test {
+    }
+
+
+        @RunWith(JUnitPlatform.class)
+        @SelectClasses({A.class,B.class,C.class})
+        @IncludeTags("production")
+        @ExcludeTags("Prod")
+
+    实际：
+    @RunWith(JUnitPlatform.class)
+    @SelectClasses({
+            Junit5Demo2Test.class
+    })
+    @IncludeTags({
+            "testdemo"
+    })
+    public class Junit5SuiteDemo2Test {
+
+    }
