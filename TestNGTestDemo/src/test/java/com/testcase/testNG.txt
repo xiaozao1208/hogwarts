@@ -1,0 +1,26 @@
+TestNg
+
+注解：
+@BeforeSuite  所有测试运行前运行
+@AfterSuite   所有测试运行后运行
+
+@BeforeTest   将在测试运行前运行
+@AfterTest    将在测试运行后运行
+
+@BeforeClass  当前类的第一个方法调用前执行
+@AfterClass   当前类的所有方法调用后执行
+
+@BeforeMethod 会在每一个方法调用前执行
+@AfterMethod  会在每一个方法调用后执行
+
+
+@Test         测试方法
+@Test(enabled = false) 方法不执行
+@Test(groups = {"",""})
+@Test(dependsOnMethods = {"putIntA"})
+
+多线程三个参数
+@Test()
+invocationCount
+threadPoolSize
+timeOut
