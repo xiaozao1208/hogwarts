@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f689de63-c226-4526-81a3-1bc66e897b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo2_dependsOnMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo2_groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo3_MultiThreading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo_Flow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/testNG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNGTestDemo/src/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_runner_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Junit5TestDemo/Junit5TestDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Junit5TestDemo/Junit5TestDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNGTestDemo/TestNGTestDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGTestDemo/TestNGTestDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNGTestDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGTestDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/DemoPutin.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGTestDemo/src/test/java/com/testcase/Demo1_Putin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNGTestDemo/target/test-classes/com/testcase/DemoPutin.class" beforeDir="false" />
-    </list>
+    <list default="true" id="f689de63-c226-4526-81a3-1bc66e897b6d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/Junit4TestDemo/target/" />
     <ignored path="$PROJECT_DIR$/Junit5TestDemo/target/" />
     <ignored path="$PROJECT_DIR$/TestNGTestDemo/target/" />
@@ -94,6 +68,7 @@
     <session id="-1533931945">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -421,7 +396,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589903775510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589904297581" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../muke" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -564,7 +539,7 @@
       <updated>1589863186654</updated>
       <workItem from="1589863187970" duration="6704000" />
       <workItem from="1589873985551" duration="10693000" />
-      <workItem from="1589898546316" duration="2576000" />
+      <workItem from="1589898546316" duration="3282000" />
     </task>
     <servers />
   </component>
@@ -601,13 +576,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19973000" />
+    <option name="totallyTimeSpent" value="20679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="332" y="47" width="1092" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36363637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25201073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -616,14 +590,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38755304" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38321677" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.38041958" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38041958" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32027972" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
