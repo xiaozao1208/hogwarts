@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Junit4TestDemo/Junit4TestDemo.iml" filepath="$PROJECT_DIR$/Junit4TestDemo/Junit4TestDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Junit5TestDemo/Junit5TestDemo.iml" filepath="$PROJECT_DIR$/Junit5TestDemo/Junit5TestDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNGTestDemo/TestNGTestDemo.iml" filepath="$PROJECT_DIR$/TestNGTestDemo/TestNGTestDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hogwarts.iml" filepath="$PROJECT_DIR$/.idea/hogwarts.iml" />
+    </modules>
+  </component>
+</project>
