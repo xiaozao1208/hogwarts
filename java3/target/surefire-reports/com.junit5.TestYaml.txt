@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.junit5.TestYaml
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 0.125 s <<< FAILURE! - in com.junit5.TestYaml
+testddt{String}[1]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.junit5.TestYaml.testddt(TestYaml.java:25)
+
+testddt{String}[2]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.junit5.TestYaml.testddt(TestYaml.java:25)
+
+testddt{String}[3]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.junit5.TestYaml.testddt(TestYaml.java:25)
+
+testDDTFormYaml{User}  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/FormatFeature
+	at com.junit5.TestYaml.testDDTFormYaml(TestYaml.java:45)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.FormatFeature
+	at com.junit5.TestYaml.testDDTFormYaml(TestYaml.java:45)
+

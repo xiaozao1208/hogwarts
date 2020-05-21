@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.junit5.Param2Test
+-------------------------------------------------------------------------------
+Tests run: 51, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.926 s <<< FAILURE! - in com.junit5.Param2Test
+testWithCsvSource{String, int}[4]  Time elapsed: 0.03 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <0>
+	at com.junit5.Param2Test.testWithCsvSource(Param2Test.java:128)
+
+testNumberShouldBeEven{int}[2]  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
+	at com.junit5.Param2Test.testNumberShouldBeEven(Param2Test.java:25)
+
+testStringShouldBePalindrome{String}[4]  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at com.junit5.Param2Test.testStringShouldBePalindrome(Param2Test.java:31)
+

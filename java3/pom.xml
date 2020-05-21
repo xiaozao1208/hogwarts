@@ -24,27 +24,6 @@
             <scope>compile</scope>
         </dependency>
 
-        <!--junit5依赖可以使用上面一个或者下面三个-->
-        <!--<dependency>-->
-        <!--<groupId>org.junit.platform</groupId>-->
-        <!--<artifactId>junit-platform-launcher</artifactId>-->
-        <!--<version>1.2.0</version>-->
-        <!--<scope>test</scope>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>org.junit.jupiter</groupId>-->
-        <!--<artifactId>junit-jupiter-engine</artifactId>-->
-        <!--<version>5.2.0</version>-->
-        <!--<scope>test</scope>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>org.junit.vintage</groupId>-->
-        <!--<artifactId>junit-vintage-engine</artifactId>-->
-        <!--<version>5.2.0</version>-->
-        <!--<scope>test</scope>-->
-        <!--</dependency>-->
-
-
         <!--java中的ObjectMapper 必须引用3个jar包（jackson-databind，jackson-core，jackson-annotations）-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -76,9 +55,47 @@
             <artifactId>allure-commandline</artifactId>
             <version>2.13.3</version>
         </dependency>
-
-
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.21.0</version>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <systemProperties>
+                        <property>
+                            <name>junit.jupiter.extensions.autodetection.enabled</name>
+                            <value>true</value>
+                        </property>
+                    </systemProperties>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.junit.platform</groupId>
+                        <artifactId>junit-platform-surefire-provider</artifactId>
+                        <version>1.2.0</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <reportVersion>2.4.1</reportVersion>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
