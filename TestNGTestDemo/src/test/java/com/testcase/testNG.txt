@@ -21,6 +21,14 @@ TestNg
 
 多线程三个参数
 @Test()
-invocationCount
-threadPoolSize
-timeOut
+invocationCount 执行次数
+threadPoolSize  同时线程数
+timeOut         设置时间
+
+
+搭配使用，入参参数化 ***
+@DataProvider(name="data")
+@Test(dataProvider = "data")
+
+
+Q1:@groups = {"",""},后面的内容大括号{}一定要加吗？

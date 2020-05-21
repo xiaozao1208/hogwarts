@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java3" />
+        <module name="javatest" />
         <module name="Junit4TestDemo" />
         <module name="Junit5TestDemo" />
         <module name="TestNGTestDemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
+      <module name="java3" target="1.8" />
+      <module name="javatest" target="1.5" />
       <module name="Junit4TestDemo" target="1.8" />
-      <module name="Junit5TestDemo" target="1.5" />
+      <module name="Junit5TestDemo" target="1.8" />
       <module name="TestNGTestDemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>

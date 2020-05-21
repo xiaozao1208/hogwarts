@@ -1,0 +1,53 @@
+Q1:TestYaml中的yaml测试执行失败？  原因？？
+
+Param2Test类中的问题：
+Q2:/* 这里执行的时候怎么是7 ，不是5？？*/
+       @ParameterizedTest
+       @NullSource
+       @EmptySource
+       @ValueSource(strings={" ","   ","\t","\n",""})
+       void nullEmptyAndBlankStrings(String text){
+           assertTrue(text == null || text.trim().isEmpty());
+       }
+Q3:枚举中类和参数的填写？？？
+/*枚举的类：ChronoUnit.class, TemporalUnit是前者的父类 */
+       @ParameterizedTest
+       @EnumSource(ChronoUnit.class)
+       void  testWithEnumSource(TemporalUnit unit){
+           assertNotNull(unit);
+       }
+
+
+Q4: /* 方法类参数化
+       * ？？为什么此处为空，断言是成功的？
+       * */
+       @ParameterizedTest
+       @MethodSource
+       void  testWithDefaultLocalMethodSource(String argument){
+           assertNotNull(argument);
+       }
+
+       static Stream<String> testWithDefaultLocalMethodSource(){
+           return Stream.of("apple","banana","");
+       }
+Q5：CsvFileSource  上传的csv文件乱码，处理下？？？？？？
+Q6:  /**
+         *这种组合形式的使用场景？？
+         */
+        @ParameterizedTest
+        @MethodSource("stringIntAndListProvider")
+        void  testWithMultiArgMethodSource(String str, int num, List<String> list){
+              assertEquals(5,str.length());
+              assertTrue(num >=1 && num <=3);
+              assertEquals(2,list.size());
+        }
+
+
+        static  Stream<Arguments> stringIntAndListProvider(){
+            return Stream.of(
+                    arguments("apple",1, Arrays.asList("a","b")),
+                    arguments("lemon",3,Arrays.asList("x","y"))
+            );
+        }
+
+Q7: @ArgumentsSource(MyArgumentsProvider.class) 什么意思?不明白，什么场景下使用？

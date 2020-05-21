@@ -11,7 +11,7 @@ JUnit的特点
     JUnit测试可以被组织为测试套件，包含测试用例，甚至其他的测试套件。
     JUnit在一个条中显示进度。运行正确显示绿色，错误时红色。
 
-JUnit注解
+JUnit4注解
     1.导入的maven依赖包 pom.xml中的<dependencies>中添加
          <dependency>
                     <groupId>junit</groupId>
@@ -31,10 +31,10 @@ JUnit注解
         @BeforeClass @AfterClass 必须是static
 
 
-JUnit执行过程
+JUnit4执行过程
     执行顺序
 
-JUnit套件测试
+JUnit4套件测试
     1.概念：测试方法，测试类，测试集，测试运行器
         测试方法 @Test注解的方法
         测试类   包含一个或多个测试方法的测试类 **Test.java
@@ -91,3 +91,5 @@ Q2:mvn clean test 执行失败？
 
 Q3://static 这个方法为什么是static？？
     BaseTest 父类中的 全局变量为什么是static？？？
+
+0520 周三课程
