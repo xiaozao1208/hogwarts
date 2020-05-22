@@ -24,6 +24,19 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- 如果使用junit5套件执行 需求添加下面这两个依赖-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-runner</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
         <!--java中的ObjectMapper 必须引用3个jar包（jackson-databind，jackson-core，jackson-annotations）-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

@@ -19,16 +19,14 @@
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
+            <artifactId>junit-jupiter-engine</artifactId>
             <version>RELEASE</version>
-            <scope>compile</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.junit.vintage</groupId>
-            <artifactId>junit-vintage-engine</artifactId>
-            <version>4.12.0-M3</version>
-            <scope>test</scope>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-runner</artifactId>
+            <version>RELEASE</version>
         </dependency>
 
     </dependencies>
