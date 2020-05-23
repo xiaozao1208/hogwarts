@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.junit5.ParamTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in com.junit5.ParamTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.42 s - in com.junit5.ParamTest

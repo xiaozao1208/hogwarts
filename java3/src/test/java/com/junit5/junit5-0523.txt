@@ -1,0 +1,49 @@
+0523单元测试
+
+xUnit 是什么，测试框架
+
+Junit5
+assertAll 支持多个断言
+
+
+按照业务包进行划分
+单元测试包和开发包在一个包下；
+
+按照用途分组
+并用suite管理
+
+TestSuite执行，按照整个包，按照整个类，按照多个类；
+
+分包--业务线  不同包可以并行
+不同类        类内一般是串行
+
+并行执行
+借助于jenkins的多进程运行
+借助于maven 的多线程运行
+
+mvn执行用例
+ctrl+shift+t  --> create new test
+
+maven surefire插件
+https://maven.apache.org/surefire/index.html
+https://maven.apache.org/surefire/maven-surefire-plugin/index.html
+
+mvn test
+D:\ideaproject\hogwarts\java3\target\surefire-reports
+suite
+类
+
+并行、串行
+maven 并行和串行的配置
+
+mvn suite
+
+Allure2测试报告
+
+allure的安装
+allure的原理
+    安装
+    添加依赖配置
+    执行测试
+    生成报告；
+

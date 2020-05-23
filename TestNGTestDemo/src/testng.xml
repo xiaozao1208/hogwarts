@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
-<suite name="">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testng测试套件">
+    <test name="aaa">
+        <classes>
+            <method name=""></method>
+        </classes>
+    </test>
 
 </suite>
