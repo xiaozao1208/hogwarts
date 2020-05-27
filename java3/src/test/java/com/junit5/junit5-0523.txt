@@ -1,49 +1,105 @@
 0523单元测试
 
-xUnit 是什么，测试框架
+一、回顾：
+    xUnit 是什么，测试框架
+    Junit5 assertAll 支持多个断言
 
-Junit5
-assertAll 支持多个断言
+二、用例组织：
+
+main-核心业务逻辑代码
+    在java-main方法中ctrl+shift+t  --> create new test 或者 右击-generate-test 生成对应的测试类；
+    右击-Copy Reference----com.junit5.DynamicTestsDemo
+test-测试代码，测试用例
+    test中编写测试代码。
+
+1、按照业务分包管理
+    按照不同的产品和模块进行分包：
+        com.xxx.featureA  一个包对应一个功能模块
+        com.XXX.featureB  单元测试的包与对应的开发包名称一致；
+    不同的包下要有对应的用途相关的运行套件
+        com.xxx.featureASuite
+
+2、按照用途分组并用suite管理
+    分组
+        冒烟测试  通过使用tag进行分组使用
+        巡检测试
+        异常测试
+        安全测试
+
+    分suite
+        不同用途直接使用Suite管理，通过TestSuite.class 控制选择的包，类，以及类中的方法进行。
+
+        @RunWith(JUnitPlatform.class)
+        @SuiteDisplayName("junit Platform suite demo")
+        @SelectClasses({
+                ParamTest.class
+        })
+        public class TestSuite {
+
+        }
+
+3、并行，串行执行  --提前设计安排好
+    借助于jenkins的多进程运行
+    借助于maven 的多线程运行
+
+    单元测试  单行，并行关联不大
+    接口测试/app测试   分包--业务线 不同包可以并行；不同类  默认类内一般是串行；
+
+    junit5 并行策略 3.1 mvn  3.2 junit5 本身的parallel参数配置
+
+    3.1 mvn执行用例
+    执行单个case,并行case,串行case等如何实现？？
+
+    maven surefire插件
+    https://maven.apache.org/surefire/index.html
+    https://maven.apache.org/surefire/maven-surefire-plugin/index.html
+
+     1.mvn test
+        运行单个测试用例  mvn -Dtest=TestCircle test        #TestCircle 是某个类的类名
+                        mvn -Dtest=TestSquare,TestCi*le test  #TestCi*le 可以使用通配符
+        运行所有测试用例  mvn test    #运行完的测试报告在 target/surefire-reports下面   此处与jenkins结合
+
+        也可以在pom.xml文件中配置
+            <test>my.package.???Test#testMethod, another.package.*</test>
+
+        补充：mvn clean 先清除target/surefire-reports的记录，再执行；
+        并行，串行，包含，排除，套件，跳过等都可以设置和配置，class级别，suite级别等，mvn suite现在有bug;
+
+    3.2 junit5 本身的parallel参数配置
+        新出的，找下资料
+        mvn 最新版本暂时不支持并模式
 
 
-按照业务包进行划分
-单元测试包和开发包在一个包下；
+4.调试测试用例
+    mvn -Dmaven.surefire.debug test
+    mvn -Dmaven.surefire.debug=" -Xdebug -Xrunjdwp:transport=dt_socket,serve=y,address=8000
+    -Xnoagent -Djava.compiler=NONE" test
 
-按照用途分组
-并用suite管理
+    maven 并行配置
+        <plugins> </plugins>
 
-TestSuite执行，按照整个包，按照整个类，按照多个类；
+    并行执行机制
+    * 多线程
+        parallel决定并行维度
+            methods,classes,both ,suites
+            suitesAndClasses,suitesAndMethods,classesAndMethods or all
+        threadCount 决定并行数量
 
-分包--业务线  不同包可以并行
-不同类        类内一般是串行
+    * 多进程
+        forkCount 基于class进行进程并发
+        reuseForks 是否复用进程资源
 
-并行执行
-借助于jenkins的多进程运行
-借助于maven 的多线程运行
+5.Allure2测试报告
+    5.1 allure的安装
+            安装
+            添加依赖配置
+            执行测试
+            生成报告；
 
-mvn执行用例
-ctrl+shift+t  --> create new test
+    5.2 allure的机制
+        在测试框中添加 allure的依赖和配置
+        执行测试
+        生产allure-results测试报告
+        allure generate allure-results -o allure-report || allure serve allure-results/
 
-maven surefire插件
-https://maven.apache.org/surefire/index.html
-https://maven.apache.org/surefire/maven-surefire-plugin/index.html
-
-mvn test
-D:\ideaproject\hogwarts\java3\target\surefire-reports
-suite
-类
-
-并行、串行
-maven 并行和串行的配置
-
-mvn suite
-
-Allure2测试报告
-
-allure的安装
-allure的原理
-    安装
-    添加依赖配置
-    执行测试
-    生成报告；
 

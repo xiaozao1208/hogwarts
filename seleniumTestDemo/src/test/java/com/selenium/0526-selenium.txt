@@ -1,0 +1,41 @@
+5月27日 selenium预习课笔记
+
+1.selenium的安装和使用
+
+selenium 支持多语言，通过驱动driver驱动浏览器进行操作浏览器；
+
+selenium的环境
+    java 1.8
+    maven 3.6
+    idea
+
+Driver的配置
+    介绍 https://www.selenium.dev/documentation/en/webdriver/driver_requirements/
+    下载 有chrome浏览器版本匹配的版本下载 https://chromedriver.storage.googleapis.com/index.html?path=81.0.4044.138/
+    安装 放在对应的包下面；liunx版本需要配置环境变量；
+
+Selenium IDE 的下载与安装
+    官网：https://www.selenium.dev
+    chrome插件  国内不支持
+    firefox插件 https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/
+
+
+元素定位：
+clear()
+$x('')   ----使用xpath定位
+
+
+
+
+Actions
+动作链接actions
+    执行原理：
+        调用Actions的方法时，
+
+
+
+多窗口处理---
+
+多窗口的处理流程
+
+

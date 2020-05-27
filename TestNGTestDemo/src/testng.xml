@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="testng测试套件">
-    <test name="aaa">
+    <test name="分组测试">
+        <groups>
+           <run include=" "/>
+        </groups>
         <classes>
-            <method name=""></method>
+            <class name="com.testcase.Demo2_groups">
+            </class>
+
         </classes>
     </test>
 
