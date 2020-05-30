@@ -1,42 +1,30 @@
 package com.selenium;
 
-import com.google.common.annotations.VisibleForTesting;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
 public class SeleniumFirstTest {
-   static WebDriver driver;
+
+   public  static WebDriver driver;
+
    @Test
-   public  void  test1()  {
-      WebDriver   driver = new ChromeDriver();
-      driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
-      //System.setProperty("webdriver.chrome.driver","D:/ideaproject/hogwarts/seleniumTestDemo/src/main/resources/chromedriver.exe");
+   public  void  startSeleniumTest()  {
+
+      WebDriver driver = new ChromeDriver();
+
       //这个可以不写；
+      //路径不要写在main/test目录下，要写在大目录下；
+      System.setProperty("webdriver.chrome.driver","D:/ideaproject/hogwarts/seleniumTestDemo/chromedriver.exe");
 
       driver.get("https://www.baidu.com");
-      // 点击页面右侧的设置
-      Actions action = new Actions(driver);
+      driver.findElement(By.id("kw")).sendKeys("姜子牙");
+      driver.findElement(By.id("su")).click();
 
-
-      try {
-         action.moveToElement(driver.findElement(By.id("s-usersetting-top")));
-         action.perform();
-         Thread.sleep(3000);
-      } catch (InterruptedException e) {
-         e.printStackTrace();
-      }
-
-//      driver.findElement(By.id("kw")).sendKeys("姜子牙");
-//      driver.findElement(By.id("su")).click();
-
-
+      driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
 
       driver.quit();
    }

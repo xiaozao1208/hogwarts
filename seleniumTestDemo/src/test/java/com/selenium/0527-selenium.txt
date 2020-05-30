@@ -1,0 +1,20 @@
+seleniu企业微信实战
+
+selenium简介
+selenium IDE
+使用remote复用已有的浏览器 -remote分析工具 debug
+使用cookie登录
+
+企业微信 注册是一个使用
+
+selenium简介
+    web自动化控制浏览器的的工具，支持多平台，跨语言，跨系统
+    selenium的官网：https://www.selenium.dev/
+
+selenium IDE
+    进行录制
+    缺点：不灵活；
+
+
+使用remote复用已有的浏览器 -remote分析工具 debug
+使用cookie登录
