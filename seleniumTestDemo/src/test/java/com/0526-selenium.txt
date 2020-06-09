@@ -94,15 +94,85 @@ Driver的配置
     /bookstore/book     查询bookstore的子内容；
     /bookstore//book    查询bookstore的子孙内容，更多
 
-
-
-
 3.web控件的交互进阶
+    常见的操作事件（右键点击，页面滑动，表单操作等）
+
+    官网文档：https://www.selenium.dev/selenium/docs/api/java/index.html
+    Actions ： 执行PC端的鼠标的点击，双击，右键，拖拽等事件
+    TouchActions: 模拟PC和移动端的点击，滑动，拖拽，多点触控扥多种首饰操作
+
+  动作链接Actions:
+    执行原理:调用Actions的方法是，不会立即执行，而是将所有的操作 ，按照顺序放在一个队列里，
+    当你调用perform()方法时，队列找那个的事件会依次执行。
+    基本用法：
+    生成一个动作Actions action = new Actions();
+    动作添加方法1， actions.方法1
+    动作添加方法2， actions.方法2
+    调用perform()方法执行actions.perform();
+
+  具体写法：
+    链式写法：Actions actions = new Actions(driver).moveToElement(ele).click().perform(ele);
+    分布写法：Actions actions = new Actions();
+             actions.move_to_element(element);
+             actions.click(element);
+             actions.perform();
+
+    练习网址：http://sahitest.com/demo/clicks.htm
+
+    表单操作：登录的账号密码练习
+
+
+
+
+
 4.网页frame与多窗口处理
+多窗口处理
+   点击某些链接，会重新打开一个窗口，对于这种情况，想在新页面上进行操作，就需要先切换窗口。
+   获取窗口的唯一标识用句柄来表示，所以只需要切换句柄，就可以多页面进行操作。
+
+多窗口的处理流程
+1.先获取当前的窗口句柄driver.getWindowHandle()
+2.获取所有窗口的句柄；driver.getWindowHandles()
+3.判断获取窗口句柄是否是我想要的，如果是，对页面进行操作；如果不是，进行下一个对比；
+
+百度账号密码登录
+
+
 5.selenium多浏览器处理
+使用selenium直接在当前页面中进行js交互
+常用的几种操作 使用js实现
+
+selenium如何调用js?
+execute_script:执行js
+return 可以返回js的返回结果
+execute_script: arguments 传参
+
+js处理-案例-时间控件
+
+
 6.执行javaScript脚本
 7.文件上传弹框处理
+
+
 8.page object设计模式
+案例：操作和断言 都改变，很麻烦； 解决方案:pageObject
+
+案例：
+操作细节
+结果验证
+操作细节
+结果验证
+
+PageObject
+测试
+    操作细节
+    验证
+
+
+
+
+
+
 9.page object原则
 
 

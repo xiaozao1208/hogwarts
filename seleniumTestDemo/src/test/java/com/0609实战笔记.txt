@@ -1,0 +1,49 @@
+PageObject项目实战
+
+PageObject的六大原则
+
+
+案例：登录场景
+登录页面提供login findPassword功能
+    login类 + login findPassword方法
+登录页面内的元素有多少不用关心，隐藏内部界面空间
+登录成功和失败会分别返回不同的页面
+    findPassword
+    loginSuccess
+    logiFail
+通过方法返回值判断登录是否符合预期
+
+
+java python的封装方法
+java：page factory +@FindBy
+python: pydom https://github.com/mozilla/PyPOM
+实际效果不一定，还需要自己定制
+
+
+基于POM的用例组织结构：
+page: 完成对页面的封装
+testCase:调用各类page完成业务流程并进行断言
+data： 配置文件和数据驱动
+utils：其他便捷的功能封装，可选
+
+编写用例的顺序
+根据界面封装po类与方法，实现暂时设置为空
+编写用例，明确po里的方法的入参，返回值，断言
+实现po内的方法，与自动化框架开始结合
+调试
+整体类型TDD风格---测试驱动开发
+
+
+框架默认po定位策略的不足：
+UI控件定位有复杂性，需要自定义
+    动态的加载UI,可以找到但是位置可能发生变化；
+    动态加载的控件可能会获取到最早的默认值，、
+    动态出现的一些tips需要特殊处理
+改进：
+    自定义find方法，更灵活的find行为定义封装
+    改进默认的注解
+
+结论：不推荐使用原生的po支持
+    真实的情况更复杂，原生的po支持方法不足以应付
+    不容易定制，比如java的注解，维护注解需要较高的成本
+    多数公司都在使用相同的Page Object思想进行自定义封装。

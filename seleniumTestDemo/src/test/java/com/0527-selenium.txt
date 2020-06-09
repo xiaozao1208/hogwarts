@@ -15,6 +15,13 @@ selenium IDE
     进行录制
     缺点：不灵活；
 
+浏览器的复用：
+    cmd: chrome --remote-debugging-port=9222  先配置一下全局变量，打开浏览器debug模式
+    两个注意：1.其他浏览器都关闭；2.这个浏览器不要关闭；
+    java:
+    ChromeOptions  options = new ChromeOptions();
+    options,setExperimentalOption("debuggerAdress","127.0");
+    driver = new ChromeDriver(options);
 
 使用remote复用已有的浏览器 -remote分析工具 debug
 使用cookie登录

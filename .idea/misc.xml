@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/java3/pom.xml" />
         <option value="$PROJECT_DIR$/javatest/pom.xml" />
         <option value="$PROJECT_DIR$/seleniumTestDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/appium/pom.xml" />
       </list>
     </option>
   </component>
