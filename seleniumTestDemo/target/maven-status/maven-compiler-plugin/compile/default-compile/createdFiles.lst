@@ -1,0 +1,11 @@
+com\test_app\snowball\page\SearchPage.class
+com\test_web\pageobject\MainPage.class
+com\test_framework\UIAuto.class
+pageobject1\ContactPage.class
+com\test_framework\BasePage.class
+com\test_web\pageobject\ContactPage.class
+com\test_app\snowball\page\MainPage.class
+com\test_app\snowball\page\BasePage.class
+com\test_framework\MainPage.class
+com\test_web\pageobject\BasePage.class
+pageobject1\MainPage.class

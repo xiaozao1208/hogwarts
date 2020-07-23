@@ -87,7 +87,7 @@ Q2:mvn clean test 执行失败？
 
     2.为什么用mvn test测试类的Ignore？
         mvn clean test  #执行所有包含test的类；
-        mvn -Dtest=com.testcase.Junit4Demo1Test test #执行某一个类中的方法
+        cd  #执行某一个类中的方法
 
 Q3://static 这个方法为什么是static？？
     BaseTest 父类中的 全局变量为什么是static？？？

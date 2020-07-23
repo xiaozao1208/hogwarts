@@ -1,0 +1,13 @@
+name : aaaa
+description : bbbb
+steps :
+  - method: click
+    param: [1,2]
+  - action: click
+    by: id
+    locator: search
+  - action: click
+    id: click
+  -click: {id: search}
+# 基本自动化领域模型
+# 业务模型(以page 日志为模板)

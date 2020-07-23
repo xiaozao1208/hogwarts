@@ -12,6 +12,7 @@
         <module name="Junit4TestDemo" />
         <module name="Junit5TestDemo" />
         <module name="seleniumTestDemo" />
+        <module name="temp" />
         <module name="TestNGTestDemo" />
       </profile>
     </annotationProcessing>
@@ -21,7 +22,8 @@
       <module name="javatest" target="1.5" />
       <module name="Junit4TestDemo" target="1.8" />
       <module name="Junit5TestDemo" target="1.8" />
-      <module name="seleniumTestDemo" target="1.5" />
+      <module name="seleniumTestDemo" target="8" />
+      <module name="temp" target="8" />
       <module name="TestNGTestDemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>

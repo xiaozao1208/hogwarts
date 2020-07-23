@@ -1,0 +1,42 @@
+显式等待：
+ long start=System.currentTimeMillis();
+        new WebDriverWait(driver, 40)
+                .until(x -> {
+                    String xml=driver.getPageSource();
+                    Boolean exist=xml.contains("home_search") || xml.contains("image_cancel") ;
+                    System.out.println((System.currentTimeMillis() - start)/1000);
+                    System.out.println(exist);
+                    return exist;
+                });
+
+
+演练课知识点：
+    测试策略
+    app自动化测试
+    page object封装
+    测试用例补充完善
+    用例的并行运行
+
+
+1.测试策略
+PO模式封装的主要组成元素
+    page对象：完成对页面的封装
+    Driver对象：完成对web,android ,ios,接口的驱动
+    测试用例：调用Page对象实现业务并断言
+    数据封装：配置文件和数据驱动
+    Utils：其他功能封装，改进原生框架的不足；
+
+2.测试用例：行情-自选股-添加股票
+    setup_class :清理已有的自选股
+    setup: pass
+    testcase:添加股票、断言股票存在自选股中
+    teardown：pass
+    teardown_class:关闭app
+
+
+Capablities ---搜这个，看下官网
+    performan --属性
+
+问题汇总：
+运行时类加载器找不到Locatable类，
+最终发现是selenium3.3.1版本org/openqa/selenium/interactions/internal/路径下找不到Locatable

@@ -1,0 +1,76 @@
+0617
+UI自动化测试框架
+
+1、测试架构设计思想
+测试框架xUnit 包含junit4,junit5,testng
+	单元测试
+	接口测试
+	web自动化测试selenium 
+	app的自动化Appium
+	
+领域建模与抽象封装
+	业务领域建模
+	自动化领域建模
+
+	抽象为资源对象，操作方法，状态切换
+	page Object模式
+
+用例表达方式
+	TDD  	TDD是测试驱动开发（Test-Driven Development）
+	DDT		数据驱动测试		Data driven test
+	ATDD	验收测试驱动开发，代表作品：RobotFramework
+			https://www.cnblogs.com/feifei-cyj/p/8427906.html
+	BDD		行为驱动开发，代表作是Cucumber  Behavior-Driven Development
+	API		使用领域特定api描述，代表作是 request，RestAssured
+	
+	API方法已经成为测试框架的主流使用方法。
+
+参数化与数据驱动
+参数化：将用例的关键数据变成参数以实现 批量数据驱动
+	关键数据变为外部传入参数
+	执行时使用数据替换参数
+数据驱动测试:使用管理良好的外部数据表达测试并驱动测试执行、
+	代码与数据结构
+	关键测试数据来自外部数据源
+
+数据格式和选择
+	excel	生产数据方便	二进制文件不利于版本管理
+	csv		可使用excel编辑	表达多层级多类型数据有困难
+	xml		格式完备		冗长复杂
+	json	格式完备，可读性一般 不能编写注释，格式死板
+	yaml	格式完备，可读性好
+	推荐使用yaml文件格式
+
+
+2、测试步骤的数据驱动 ***
+
+核心技术概念
+模板替换：使数据源中的数据动态化
+变量引用：可以导出变量并在后续步骤中引用
+自定义扩展：支持自定义的编程逻辑
+xUnit测试封装：用例，套件，执行，断言，装置等等
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	

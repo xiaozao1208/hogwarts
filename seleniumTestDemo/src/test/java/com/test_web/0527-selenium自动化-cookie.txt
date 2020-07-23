@@ -1,0 +1,35 @@
+seleniu自动化-企业微信实战-cookie
+
+    selenium简介
+    selenium IDE
+    使用remote复用已有的浏览器 -remote分析工具 debug
+    使用cookie登录
+    案例：企业微信注册一个使用
+
+
+selenium简介
+    web自动化控制浏览器的的工具，支持多平台，跨语言，跨系统
+    selenium的官网：https://www.selenium.dev/
+
+selenium IDE
+    进行录制
+    缺点：不灵活；
+
+浏览器的复用：
+    cmd: chrome --remote-debugging-port=9222  先配置一下全局变量，打开浏览器debug模式
+    两个注意：1.其他浏览器都关闭；2.这个浏览器不要关闭；
+    java:
+    ChromeOptions  options = new ChromeOptions();
+    options,setExperimentalOption("debuggerAdress","127.0");
+    driver = new ChromeDriver(options);
+
+    使用remote复用已有的浏览器 -remote分析工具 debug
+
+
+使用cookie登录
+    cookie是一些数据，存储与你电脑上的文本文件中。
+    当web服务器向浏览器发送web页面时，在链接关闭后，服务端不会记录用户的信息
+    Cookie解决“如何记录客户端的用户端的信息”
+
+    cookie的获取，cookie的存储，cookie的使用场景（免操作登录）
+    代码：BrowserReuseTest.java  TestSelenium.java

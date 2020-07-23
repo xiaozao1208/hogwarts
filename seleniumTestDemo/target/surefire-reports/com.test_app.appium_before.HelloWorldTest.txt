@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.test_app.appium_before.HelloWorldTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.259 s <<< FAILURE! - in com.test_app.appium_before.HelloWorldTest
+com.test_app.appium_before.HelloWorldTest.xueQiuSearch  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.test_app.appium_before.HelloWorldTest.xueQiuSearch(HelloWorldTest.java:37)
+

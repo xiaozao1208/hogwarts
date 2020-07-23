@@ -1,0 +1,175 @@
+
+一、appium环境安装与架构介绍
+    1.Appium环境搭建：
+    java1.8  OK
+    Android sdk OK
+    Node js(>=10),npm(>=6) OK
+    python3  OK
+    appium-desktop = appium server + appium inspector
+    Appium python client
+
+
+    https://developer.android.com/studio/index.html
+    https://tools.android-studio.org/index.php
+
+    2.相关的代码
+    adb device
+    展示电脑连接的设置数和详情
+
+    打印手机的日志
+    adb logcat | grep -i displayed ----直接在cmd里面写是不对的，
+    D:\develop\android-sdk-windows\platform-tools>adb shell
+        sagit:/ $ logcat | grep -i displayed
+
+
+
+    每一个页面是依赖activity
+    appPackage 不同系统，不同应用不同的appPackage
+
+    D:\develop\android-sdk-windows\platform-tools>
+    D:\develop\android-sdk-windows\platform-tools>adb devices
+    List of devices attached
+    e380868 device
+
+    D:\develop\android-sdk-windows\platform-tools>adb shell
+    sagit:/ $ dumpsys window | grep "mCurrentFocus"
+      mCurrentFocus=Window{54464ae u0 com.android.settings/com.android.settings.SubSettings}
+        com.taobao.taobao/com.taobao.search.searchdoor.SearchDoorActivity
+        sogou.mobile.explorer/sogou.mobile.explorer.BrowserActivity
+        com.xueqiu.android/com.xueqiu.android.common.MainActivity
+
+
+
+二、Appium用例录制
+
+    1.Android自动化依赖前提
+    2.appium desktop功能介绍
+    3.利用appium desktop生成用例模板
+        3.1获取app信息
+        3.2配置待测应用的信息（desire capability）
+        3.3导出python语言的用例
+        3.4添加隐式等待的增强用例的稳定性
+
+
+    1.Android自动化依赖前提
+        adb工具---adb=android debuger bridge
+        模拟机 or 真机
+            模拟器：网易mumu,genimotion,或者sdk自带模拟器   网易mumu（安卓6.0）
+            真机需要root权限（下载sdk root权限，真机安全性）
+        appium desktop(入门学习工具,录制视频，定位元素参考)
+
+
+    2.appium desktop功能介绍
+        UI分析---页面分析，元素定位
+        录制用例
+        元素查找测试
+        Attach 已有的session
+        云测试
+
+        使用模拟器需要设置一下端口：
+        执行命令：adb connect 127.0.0.1:7555   链接模拟器
+        查看设备名称：adb devices  or adb devices -l
+        查看页面的package和activity:
+        adb shell
+        dumpsys window | grep "mCurrentFocus"
+
+        或者
+        打印手机的日志
+            adb logcat | grep -i displayed ----直接在cmd里面写是不对的，
+            D:\develop\android-sdk-windows\platform-tools>adb shell
+                sagit:/ $ logcat | grep -i displayed
+
+
+
+        代码：
+        C:\Users\lhy>
+        connected to 127.0.0.1:7555
+
+        C:\Users\lhy>adb devices
+        List of devices attached
+        127.0.0.1:7555  device
+
+
+        C:\Users\lhy>adb shell
+        root@x86_64:/ # dumpsys window | grep "mCurrentFocus"
+        mCurrentFocus=Window{2c00b4a u0 com.xueqiu.android/com.xueqiu.android.common.MainActivity}
+        root@x86_64:/ #
+
+问题1：mumu模拟器登录Appium 进入雪球，首页经常加载失败？
+
+
+三、Appium元素定位方法与隐式等待
+	1.DesiredCapabilities 介绍
+	2、appium元素定位
+	3、隐式等待
+
+
+1.DesiredCapabilities 介绍
+        看官方文档
+        http://appium.io/
+
+    1) Capabilities设置
+        adb devices
+        adb logcat | grep ActivityManager
+        adb shell dumpsys activities | grep 'launchable-activity'
+        定位方式
+        driver.findElementByID();
+
+2、appium元素定位
+    常用的元素定位：Id,AccessibilityId
+    driver.findElementsById(resource-id)
+    driver.findElementByAccessibilityId(content-desc)
+
+
+
+
+
+
+
+app控件定位
+
+app控件交互
+
+触屏操作自动化
+
+高级定位技巧
+
+显式等待机制
+
+特殊控件toast识别
+
+属性获取与断言
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+属性的获取与断言
+
+源代码
+https://github.com/appium
+下载appium-uiautomator2-server
+    appium收到请求之后，对于Android自动化，都会转发给appium-uiautomator2-server
+
+
+断言
+    普通断言  junit5 assertions
+    hamcrest断言
+        hamcrest具有很强的扩展性，可以创建自定义的匹配器。
+        添加依赖jar包
+
