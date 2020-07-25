@@ -104,6 +104,37 @@
         <version>2.9.9</version>
     </dependency>
 
+    <!--rest-assured 是什么？-->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>4.2.0</version>
+        <!--<scope>test</scope>-->
+    </dependency>
+
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-path</artifactId>
+        <version>4.2.0</version>
+        <!--<scope>test</scope>-->
+    </dependency>
+
+
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>xml-path</artifactId>
+        <version>4.2.0</version>
+        <!--<scope>test</scope>-->
+    </dependency>
+
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-schema-validator</artifactId>
+        <version>4.2.0</version>
+        <!--<scope>test</scope>-->
+    </dependency>
+
+
 
 
 </dependencies>

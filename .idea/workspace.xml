@@ -2,909 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f689de63-c226-4526-81a3-1bc66e897b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_flipkart_zjsonpatch_zjsonpatch_0_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_btf_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_msg_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_uri_template_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_schema_core_1_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_schema_validator_2_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jknack_handlebars_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jknack_handlebars_helpers_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_tomakehurst_wiremock_jre8_2_27_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_8_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_osgi_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dnsjava_dnsjava_2_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_schema_validator_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mailapi_1_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_javacrumbs_json_unit_json_unit_core_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_browsermob_core_2_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_littleproxy_1_1_0_beta_bmp_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_mitm_2_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_javax_activation_0_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_conscrypt_conscrypt_openjdk_uber_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_common_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_hpack_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_http2_http2_server_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_client_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_conscrypt_client_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_conscrypt_server_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_alpn_server_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_proxy_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_30_v20200611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_20_v20161216.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_20_v20161216.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_20_v20161216.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_legacy_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_placeholders_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit4TestDemo/target/surefire-reports/TEST-com.suite.SuiteDemoTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit4TestDemo/target/surefire-reports/com.suite.SuiteDemoTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/main/java/com/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/main/java/com/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/MyFirstJunitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/target/classes/com/Calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/target/classes/com/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/target/test-classes/com/CalculatorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Junit5TestDemo/target/test-classes/com/testcaseinfo/MyFirstJunitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/ajcore.20200703.175929.769.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/ajcore.20200703.180017.280.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/ajcore.20200703.180128.269.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/ajcore.20200703.193120.359.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/ajcore.20200703.193158.533.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0030c90b-bca8-43eb-869c-19af169a21c1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/012d8186-b0c4-4ac8-a91b-53afc6b23975-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/013c59cb-a01b-4e01-83eb-fde9f73e6d7e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0212815a-84ca-42d4-adf0-167aa85f802f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0240c158-7b99-4eac-996d-bc8fe8eb8229-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0262bf9a-c253-4b2e-8888-96bb3c9b17f7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/029ca720-1a41-4120-a665-3b8b186b660f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/02fe52fe-5572-42ac-9449-e3893ce97325-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/03254725-0401-4f0b-963b-08907c47f542-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0355f43e-0161-43ef-89e7-4ff19c1bd2f4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/03bbf960-d465-4b2d-866e-c0dfe920f7df-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/03db951d-0f69-4886-bae5-f75fd5abb054-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0547b1b8-030e-4491-8231-ac1ccd8bc533-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/055cca5d-17a0-4e05-b4db-06b8f0872645-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/056cf517-211d-4655-a1d0-3d4023f6b835-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/06cc56a8-5f2c-4e02-ad73-7c3bde662bb9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/06fe053e-c10a-4847-9101-c42311ba7bf7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/077dec4b-c53a-4606-a893-babe5f5a008e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/07a5e558-b9ff-4552-971b-13ee2e5ffa73-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/07f9ff38-ef70-4895-8f35-96c2445e1cd0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/082724d6-8518-4fc1-9219-36527b9e7636-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/085adf39-56cf-40ae-b54a-c45d2beed808-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/08fb41f9-2b84-4f69-b50f-e8eb56ccd044-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0a51746a-0e23-4302-b09b-c58a97e1de32-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0a7c755e-4053-4195-81fb-1060adfb3df3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0ae92af5-630f-4cc4-ab15-c23f610f3842-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0b4b6af3-8329-4874-8314-c66a2db4cb09-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0b8179f6-5cac-49c0-be42-19b3f7d122e0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0bc238d0-2a5d-44dd-b4ad-35d2aa714c35-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0c80df50-c175-49b7-88fb-3e5e727fa1bb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0c9dce61-c670-4711-8161-f81c623edbbf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0d0b690a-b4c4-4d03-b179-b863986d6365-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0d70239e-b463-4da6-8d3f-3a01c166b479-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0dd2178c-81a5-4a4f-9e41-9f48e2e7dca2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/0f8a9e8c-8e76-4aed-b34f-202d7a1f8c5b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/100c14e3-dbf5-4be9-a42d-b4faa0561243-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/108619d9-9719-43a1-8241-75502c7d4042-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/109104b4-c367-4dde-a82c-5889803c5d17-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/10c94b6e-87a0-4614-b71e-db7bed9521e9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/115501b3-db9a-4df0-a68a-b4cdab96b8ee-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/115eded1-c66f-42a5-bfd5-f908d789c7fb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1185bd4b-e3fc-4842-b6dd-fc9a128da9f3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1278509d-6a1f-443b-922f-f0e2c8ee9d41-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/12c7db1c-5b97-4586-b537-77d7c14e55a8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/13119ff1-a831-4b4e-9a40-1e22ae7dfd9f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/136fe25c-a94a-4521-ad76-3aa5de80a584-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/152fbb52-316d-4059-a602-a296488ee032-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/152fbe7d-c9ad-42c5-97f1-9516b34cc06b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/15add732-307a-4920-a03b-3eb657d2dc5a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/163c82c2-b756-4246-a60e-66e6772f613b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/164cd7ae-8621-4df2-b6ac-3f727f67b53c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/16ad45e4-b2bb-4451-ab5a-0ba717036326-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/16d4b803-2744-4ca1-84eb-e486f717185a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/175daecc-5cec-4bc8-a91a-9e11c66a66d5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1814d6a5-0b85-40c2-86fb-ef8237056ab5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/199895e9-5449-48e0-9d3b-8bb2dccdaafc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1aa1aa5a-aa34-426c-a5f2-f182ba85991c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1b1cd928-ff07-4b30-8058-5b930ad57e3f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1b668366-0dae-4a7a-938f-dbc5c43da385-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1b8f85f9-c55d-4b8f-9831-6cbeffd8979f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1bdcfe4e-89c9-460a-8526-5fd2320ca062-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1c25603c-da6f-42f2-8415-0aa4c65c88d6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1cb17bfc-c141-4bb6-b180-10ad96c7b522-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1deb6eaa-4f3e-4bd6-82e1-f3c6b31efbfc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1decf731-11f5-4c70-b986-852466fdbb64-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1df4771e-1f74-48d2-b070-0347ef077add-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1eb55512-a076-40f0-8077-849fc6a6a02b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1efc9d04-e51f-499f-b400-cb0d75478055-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/1f11c2fb-36e3-4762-b74d-b47194c04d1b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/204c579b-3aa7-40a6-a27b-fbc27b87bb16-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/205b4ac7-e604-4a1f-b8fc-352ca9fa1b63-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2069572a-57a6-4609-9a9e-524a41a87e80-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/209b5fb3-d6c3-4b46-848f-aeb80c47f4e2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/20e26c5f-4834-4d27-9664-c481b2bf0d35-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/20e523b1-94a7-4328-90c6-62fffe618d46-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/216dfd40-f7b5-403f-9cb8-6eb37b6b5200-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/219f2d45-2b17-4add-9af6-cb096b99d2cb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/21e581b1-cdea-4897-85d6-0b6f1fb541e5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2207c75a-445a-4115-8e9b-2d73499e3170-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/22aa39ec-3464-4aee-b3bd-58f2838d1348-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/22d3d93c-bdb8-42a7-a3eb-e6fd6090d7c4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2308ebcf-3722-40e1-93c7-27ccf087b55f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/233bd2ed-dd35-473a-ba34-0a0be3e0dd2e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/235b62db-a779-4c07-a3ab-c1ff6760ace5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/23b62a30-d7db-42f4-aef4-2669d3055496-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2495b824-5066-433d-ada2-3766c00e06ef-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/264eb889-8340-49a6-ae2a-3ee7521874ef-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/267b31c9-a949-41a2-91a7-757aabf5c0b9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/26f77261-9b6d-48d0-b83d-2d5fb222e0d6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/27ed5761-879f-4ff2-b321-ef2765796cde-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/28f915af-1b48-4836-800a-8ceac7afaa71-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/290d8020-df90-4390-a163-ebedf76225b1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2a04ded4-2aa6-4310-b107-b43d1001b051-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2a90cb6f-deda-4b07-b528-1de82ce7084f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2b071476-8e3a-4238-86f4-c1e55cdb4f64-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2c61c90b-448b-428c-918a-a5de9045ee00-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2cde3b3f-b3f1-45dc-9eca-748c52307460-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2d80819e-5396-4a29-9f92-d0269d0a337f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2edcfe8a-60c2-4db3-b4fc-47b7aa3dad6a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2f0484e1-e5a7-4043-af17-c7c03ca9ed96-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2f58c29e-558c-415b-9b13-22b531d36ae9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/2fbb3b9a-5047-4efb-a810-57ff997b53eb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/30f1c016-c770-437b-b802-8df81aa0c88e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/310eaa2c-8802-4a57-bb48-d25b2ec5c30a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/31479e26-b41f-420d-b2cb-11cf492d789a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/31f9565b-08b2-4ffa-8aea-ff28e8db6885-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/320ce6b2-24ce-4955-9141-bfe36c860546-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/32268d8a-286d-4b16-a0b4-01df8e340e90-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/322a03fd-7922-4de9-8241-2d8853f0bd73-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3289c110-81cb-4669-ad28-6dc3b988c585-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/32ea11f4-cdbc-49ea-9031-b28fd601179b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3355846d-d0d6-4e7b-bb98-0c3b34843552-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/335fe6f2-f855-4b18-b096-bb62a91380d3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/34090793-ad7a-4e56-956e-f92ac81723c4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/344e0ca4-5168-438b-8423-7b326bc3c0d3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/357f0b10-f43e-48c0-9b9d-a0074b204731-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/358df7ae-0a6a-457b-83f7-8e45e3f6ea9e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/35a31a4b-afb2-4ffe-8d29-0f4448ea723f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/35ee289b-04ed-46da-a107-53029cfa8dce-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/35f65e21-14b7-4ec6-b267-e22b614cefe5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/36316df7-1b4e-47bf-8c97-908ad51e32ff-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/366d55d3-16a4-4a6b-ae82-533cb835d1cf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/36afb512-f402-420c-a9fb-6cdc237873d5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/36e4fe17-fcfb-4f83-b885-64d9d462be05-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/372c0a3a-b1f6-4ad3-9df3-39379e6b18c5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/38308020-332b-4866-bc79-02de7513f953-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/38a5b669-66dd-490e-be06-a162130fad44-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/38e67923-880c-40e4-8c10-c27e7db55b19-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/393405c7-6768-402f-9753-6795d89bd657-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/39b5ac84-ec6f-4516-ab94-d7aed4daf98c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/39c93cae-4dbd-43aa-aa0c-1ca2d76bdd21-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3a9fa633-5b56-4bd0-bf4b-a5bd97f3a787-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3b1177f6-261e-47d0-9eaa-8d3ab13d6e28-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3b963053-d7b9-459c-a538-d5f0925c605d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3baf122c-6d07-40e7-b1c5-bb9082e3b9be-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3c7adeed-35c3-4aa0-91e9-80990d0be724-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3d217658-81ce-40b3-8ea9-b009a03e1aa4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3d7e1e78-668b-4588-a71f-211afaf616f2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3d9dbd36-8f9a-41ca-bdff-b568108f7a45-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3e1109c9-726e-40d3-a503-040357e45ae0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3e205e38-bec1-4dc6-a757-cf00f046ca19-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3e822050-a674-40fa-9a96-656023f499bf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3eaa6862-cecc-4e10-a67a-e8ed0860331b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3f31d01e-731a-4add-895f-e0f7008a87d9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/3fc12e5f-ec75-4636-888d-f15191e24707-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/406f4438-c70d-4a71-a15e-8ccee3a8a74f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4071dcce-b9ec-4a26-ab39-3e798e99b5f4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/41705b96-e5ad-4710-b1c6-b3409e92c723-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/41729747-f558-4d2a-9a1a-9681f89255cc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/41e4086d-7d73-45b2-bc6b-b13dd0340242-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/41e7323c-063d-4df1-ab8a-4f420b0a6592-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/422c9815-e691-4360-bc42-9c20d9852026-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/427a3f89-846d-4d72-8d1a-6ab49caf43d8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/42b5bcd1-565f-4800-8d04-f65434d47462-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/42f66fce-f5a9-4db2-8f82-79ee1f6d6c54-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4317893e-d47b-4b76-bf4a-e7159b07a1fe-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/436c5f93-4fdf-4b88-bb73-e8b9897e7714-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/43e38c83-f895-4fa6-abd3-b935cb94d87d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/43e4988a-8e39-4662-87b7-17bfbf5a4b8b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/446f0c54-8b8d-4819-85db-0a8ace2b4e4d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/44dfed67-7bb6-42b1-a416-4ce57bb27ea2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4611f67f-36d4-4e4a-b4a3-4d87e221b49a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/462b2242-e1dd-4cc8-b78d-70ea39659a0b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/467228bd-cd78-45d9-9cb8-405894d7ea4d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/46ac4531-21f5-4e23-a84d-332cf005cbaf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/46c6c63a-c4ba-4696-b186-a47b4bed1249-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/46db4ee5-5c7e-4d87-a75c-612c645bcc56-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/46ebb033-490e-4817-989c-7269382ef5c7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/46ffb2d5-675a-433f-86d3-71e8ef813715-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4774bd74-de8c-49e8-bb72-d15c68db46bf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/47972d4a-0fac-44be-b76a-fa57dc79c60f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/47fce761-c506-4877-ab0b-93a4f5a4fff9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4851b59a-ff1e-4b00-94b5-97c770a7b044-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/486a78b3-7812-4162-bb7d-fce7b1a9daf6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/492356d6-fcc5-4dda-be4d-d1ea5365d63e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/49a802bb-1e6e-4d46-8a5f-b573dffb5d9b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4a3e9470-83dd-47ab-b7f8-8390c305467d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4b7b2fff-318a-49f8-b0af-ba21f1ab0c88-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4c99e12d-f245-4cee-98b3-a7ca99e4f054-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4cb472ce-53dd-4584-a368-778d0a9fe08d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4cb833f4-d6cd-4dcf-a167-32209c660960-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4d48d91a-deaf-44a6-8116-7a0fd810638b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4d4e7a81-f00d-496a-b880-d7343e359433-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4d8f7716-b168-4880-816b-77bc87a36b17-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4e08866f-20ef-4f5d-afbc-4a9413a520a2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4e15e5a1-b632-4c06-878c-19096f148bbe-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4e201a07-04ca-4b8f-9d58-5f503e6fa5b0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4e4b3422-e879-4149-a4e0-09d20ad878b0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4e6f46fe-8e38-4ae9-83d5-d1d2120989ae-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4f0469d2-f7ab-4d08-aff8-5751f14be9a2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4f0fa4e5-9e37-43dc-9278-cc415a7b12ee-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4f20c501-c7fc-41d5-a785-d558b45aaeda-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4f46a04a-c4f9-44c2-a411-679ee0d1b3b7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4f56a066-04bd-4a1b-890e-329118a0dd18-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/4f99881d-7df6-46aa-b591-2a95483cc1e0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5032880f-459d-4fe2-832e-160c58c7db33-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/506b8455-facb-457e-9452-87313e495423-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/50726d19-faa8-405f-af0f-2cb708016969-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/50abbd71-769f-4f3d-9b47-806d428febba-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/50b8b6af-4a85-47d3-9eaa-4f98c8ac8ab1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/50f4586f-c253-44a3-86e9-60887827c20a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/50fe7a2e-695b-4c40-b0c7-eb87c5e44c9e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5108dbfc-b8d1-4d76-8319-ac6c6cab3c21-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/51530dff-2b4a-4582-b3d2-f5129fb1b3bd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/516a4f3e-e65f-466b-ad11-02454afe7b44-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5207e067-af20-40f7-935b-519612d0d26e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5238172f-4c07-4875-9575-9b058c223624-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/52392cdb-f645-4b3c-a780-5a5fac225d36-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/52f13c5e-8369-4736-90b4-3ba7279976e1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/53362b9e-dee3-4cd0-99c4-b5604cb78444-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/537722d3-b371-43e5-8356-217e61f7266a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5444499c-ccb4-4c99-838a-e2885497ecfe-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5454caf1-de9f-4dd2-ac06-78d468a52e42-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/545db781-f458-47d2-82e5-893a12646428-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/54a3652e-6760-4d77-b68f-965b4819dc53-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/55be0504-64de-41e9-be51-36f07de37935-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/55e52c4f-30fc-4e89-9d71-4e0e8b10af84-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/56e3175c-3051-41ae-bb74-76c240aa2e4b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5779d149-7983-4c3c-8226-5430a7183cf0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5824846a-cd3e-4a2e-837f-99ce1d3d739e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/58af7d94-8d2d-4bc6-9227-ad3631e4f3b2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/59db753e-7654-4b35-bf9d-aa754c0c3528-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/59dcd9b5-1c58-4332-b278-3163ad1e2e35-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5ab42447-8cb2-4e0d-91b3-e9c41f177a24-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5acb621c-96f9-4298-87cb-1b463203d847-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5aded71b-2ef8-4400-a2a7-dda2821ae8fe-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5c24c824-903d-4872-b62e-29ccdeb58f42-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5c65cfa2-aca6-4d5e-ba2b-fa6e97b4ca35-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5d188da7-eb1b-4f83-a1d3-535bfc2291c9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5d6cd2a5-a7f5-4feb-97b6-906c30a57da6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5d96e5ce-7563-448d-98dd-9b874142347c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5e525168-74d0-49f2-ba96-bf1e8d5159b4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5e935efd-2c0d-4205-b7ff-679bb7bb7503-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5e941a9c-9096-4277-9396-23f6129dec15-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5f38190d-b56f-448f-bf1e-2e27d6782330-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/5f3c1ac6-3094-4d80-ab63-fdeb51386f3b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6106ad19-68bb-4b2a-9975-532068f849a1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/613c2e9d-18f7-470f-af08-e01c0169a2fb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/61823928-501e-4188-b98e-234d690580b9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/62959a24-62f0-42f5-8176-ac1f5ff64a3f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/62fcdbf5-735f-494f-aa8d-c4b784f8c160-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6308248f-95b0-4c09-abd9-939b645f15f0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/63eb487f-e7df-4fa4-9feb-307cd608581e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/64431293-e2d8-40ec-a8fa-b59217deed78-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/64f240a1-df63-4f6e-8b56-9ee2306e3948-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/658ce9d7-aea9-4545-a9b9-9a2ec94db54a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/65b1699a-1834-4fd6-b9b5-11d94fbdc41b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/65ba81b3-6f0d-4ad8-9c96-c17f81b4d75d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/661d611a-62bb-44ee-a54e-c28347b915d7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/662ba720-9fe7-4509-b801-3452d633bcbc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/664da044-8ebe-4406-bc6a-58bb0b4808e3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/66bd645a-505b-47e0-b2a0-d046c29bb0e6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/66ccaeb3-f9f0-47e3-a169-0ab43b11896a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/66e36575-c14e-4272-a208-d9a08e8b8f79-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6763308f-f335-43e6-b0d1-bdcd4da04493-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/679cd827-1858-426b-b1dc-cb3933003617-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/67a663dd-20ad-4eb1-80f6-c9282ec40617-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/67d74280-ad23-4b97-a3c8-79de90f78431-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/67fa267f-67d2-44da-a0d7-041c003ad3d5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/685bfb34-f87a-4e21-b214-d0cd83f673a8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/68e103c4-2260-41e9-ae75-2c16f992b25e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6943faa4-14fb-4133-9b49-50f4f6ed3ea4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/69498c6a-8ea9-4653-aa42-d448eb392c37-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6ad6a306-0dc9-496a-807c-abf6b79b6825-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6be4bbb1-9137-4c16-95c7-1f916a8d2c44-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6ca6ec71-151e-45bb-8cf3-13b6f588dc74-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6e7cb7cd-eb73-4bbf-9b88-f2d3713d8f32-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6f60c2c7-c90c-4f69-a16a-2efa87e9d3df-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6fb1bbfd-ebf9-4d47-9178-24adb3b4375d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6fdd300c-5227-4875-b9e4-99e5a16ada39-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/6feb2d54-840c-47fe-9ec2-84e18b1e9e47-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/706ff558-ef5d-4473-a31d-25d255df7665-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/714f51af-e420-4f4d-8565-3b41dfa725f3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/71e2a7a8-1578-4f6f-a407-5cdc8134f194-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/72ae1f75-544b-4066-8039-09f0265f3e90-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/74003d15-97a4-480d-ba1c-08af79da9c0b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/74ccdf16-95a1-4830-aff0-f222e0618c7f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/757febf6-bd29-4b9d-b17b-008ec7a5df6f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/75d95b6b-719c-4129-ad26-b020ed58351b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/76064930-c7b4-4ebf-8514-9f53484d2042-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/76106517-4ed1-4b57-ad2f-e8f7269d6b26-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/76720552-2479-4aff-bd1c-a504d585daa2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7676c26d-642e-4021-a941-783fd175b40e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/775db793-32a9-4322-8352-d1e6c82e4fcb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7872113a-005c-4d20-b6af-abaa0341dbe9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/78a5c14b-8c73-438c-b0e1-5c83ccf0bb85-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/78dac449-4f55-4312-8c83-bcf5d626128f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/79272088-d983-4265-b7bd-c19e7739f268-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/798680ea-63d7-4d3b-8b8c-a01a2d899bba-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7a108bf9-c4fc-4572-93ad-ab1548c5f1df-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7ad51e33-dc33-40ea-8242-10b9b0ffdedd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7b2c554e-843e-4732-8f5c-4306b74ed392-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7b93f75e-f26a-473f-9ea7-603977d8d262-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7c0b0eef-fa92-4348-8ab7-e4b457754cec-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7da5c0ed-12f9-4281-8fbd-c2cf70f1edfe-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7e5e8478-419d-4e26-8798-a12c2d6842c9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7e6037f8-925d-47d2-ba9a-1939d2073175-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7ef829d9-8a1d-4120-9fd3-35b7060d83d1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/7faf50a6-175d-4a78-80c5-e183da7ed0b1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/805f8236-2a22-4aab-8431-367eba386650-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/811239f7-c74a-425d-8935-aeeb2d427aab-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/81a3db35-8d7c-4437-a194-f841d5f42f91-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/81e17e0b-d1d0-4151-89c8-dbf9e402a5af-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/81f299fb-1131-4a36-b40d-331fadc01692-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/823f6abd-4401-4f03-82d1-fdb21ecd63c6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/830c7cc6-a4f0-403a-94b1-2768a4adde59-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8393a594-1a0f-4d2c-a857-f4daaaef6f0e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/83ad8fe9-f97a-439f-81fb-a672d3938d08-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/83bf372b-f5f5-4280-93a7-bbfc8bbb8fd7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8403b241-2d3d-4245-8ba4-df6568214e1e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/84842535-3e1d-42f9-9518-c3333f38b013-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/84930476-5f67-43da-b0fe-ad795f93c3e6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/85d9abaa-f750-4573-9cfd-08bf34ca258a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8616f911-61cb-4836-a20f-a15732c15378-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/880178d6-d4f3-40d1-a379-f3a836981d52-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/883cd278-a8f7-4a9c-8683-8caa31b86ef8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/88ab7f77-1872-412e-91a0-bb7e01ea90e7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/891cdd5d-34f5-4742-a500-18fa23ec1219-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8bf86bdc-b19b-411b-83ff-4eb5b0ed5f55-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8ccbc7cb-8474-4628-baf3-70d313685ffe-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8d1f7956-14c5-40af-9bb0-2f260b02b318-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8d4b468f-f170-4915-9cfb-e42a8789eaa2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8e72d843-69d2-434a-87e5-d6ff61f9090b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8eb235ef-4631-4fed-a9d6-1f9c6e50846a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8edf4a07-5367-4608-a710-281d839d7e42-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/8f0fecfb-1dd8-4e52-8d4c-61ce6257070f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/903387df-6363-487f-953e-6ccfb1b9256e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/90a541fc-eb73-4d11-a5bf-fab38dc2f240-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/90dc8013-5abf-4e31-a3c9-2e887e2a4d32-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/91009d1e-f07f-4bef-926d-11a00b642a56-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/916577e4-1d69-4a2e-850f-d298b8472260-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/91c07301-65e4-4556-aafe-420dc4c2cb80-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/923b4776-d09b-4772-b5b4-6374d2aeda76-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/93465e89-ece9-46a5-88d8-eeac9a9ad364-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/93b96cc9-542c-40e2-82b0-313f2c44eade-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9414acee-d559-4926-a1e6-36f3ba2ed2a1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/947306a2-efa2-48bf-8537-9b09f984dbc2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/95157f6d-45ba-4d23-bb0e-7d57578cfd13-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9527e042-7fca-4241-9de4-5d90eb8a5bed-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/95c09335-61fd-41f9-a142-3b375f71ff47-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/95f5de9d-9685-428c-84b3-4cb53542a9d8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9619935a-0155-4030-b35f-a2e7a1d398ff-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/969bcfed-9075-462a-a96a-8c1e3be88461-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/96b01ea1-b005-4653-9cd7-3f7eceeeccd2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9702e22e-fb4f-4965-bb21-556ea27e6e2f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/978dc132-a4ba-450a-b5f3-f0061b2bf736-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9790f70e-8193-4336-94c2-95551e4fd8cf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/979c994f-0a0b-4ee5-9b28-bd6ae01cbc31-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/97a8bd05-41ab-4668-80d8-e68e09e3e194-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/98254fe7-7843-446f-8a50-f70f3274c698-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9841af2e-506c-4e68-91ab-17f41d03442d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9922cd86-dbaf-4b3b-8fa3-af549411cf5c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/99dba6d8-a2e9-46c2-be2f-cad9822151dd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9a23fac4-2813-4c58-ba4d-1170d484005f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9a7d2a90-2c65-45cf-a8a4-17784040fd3d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9b765bdb-b804-434b-91b0-9c7beafe3438-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9b8227da-57f8-4f87-be1c-01e6620229b1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9bf2cfab-0c92-47d6-98fa-504024e9a66a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9c0f4656-c331-40eb-89ff-0bca373ec4f4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9c2a2fc0-cc00-457b-b89b-dbdd5a5e459c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9cfb9c71-ad5a-4511-9369-9062c891beff-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9d3c1893-6009-431b-81f3-024404e9419e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9db8629b-b705-47d6-a925-1a990b2c1d89-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9ddb1aa0-3335-4895-bfa5-fd2cbf7921bc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9e08c0fa-8f17-4869-8a6b-6340d077c92a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9fd34958-087a-41a5-b9f4-35b352ba6400-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/9fd3f74c-f2d5-42c2-a447-daf7a8bcc714-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a0460345-4ff5-47b3-a52e-7bcb530f7957-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a0f62a9d-45a7-4f21-af6a-7adccb6e738f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a1cbedd0-d040-49f0-9a5e-64dfa037825e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a1d3e3da-364d-4b08-98ac-a6b6dedd1362-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a38e4b47-f434-4832-92cd-221f9040a114-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a3c32e05-a58f-4b06-aecc-f3b6611eb367-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a3d8723f-8538-4ac0-9362-424b805e4057-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a3e60921-6318-43b7-a952-a17c3878990b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a47dd792-aef1-43a1-9371-2a1803929b19-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a49af423-4515-447e-9419-580493a6d5b8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a4bc6ff3-9db6-4037-ad14-d73f0c6880fd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a536f151-b300-4df8-8ca6-f3070020bf0a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a6544bb3-518c-4386-9590-b447ef80769d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a715ce1d-3a3c-4972-8cb1-a62445016a17-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a7526142-b59d-4d12-9be1-475ab88600bd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a78bcc3f-8437-4538-a2c6-4692269f8aab-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a8f764b0-4bb4-4577-b7ea-e9035a47b83e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a9ab9ef2-41bc-452a-b60b-6c6cffaa48b0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/a9b6b158-1c87-4cab-97f2-115ce2dfe3d9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/aa1ee6f1-7b74-4f99-ba74-bd93253986f9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/aa682757-b219-4cd7-b606-e4e7a7bec1e8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/aa6ab961-a5da-42d6-9100-d888e5a42612-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ab75bd28-422f-4297-a10f-f2a1c6564b59-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/aba3e9dc-9137-4005-b203-3a0396a5e907-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/abfc38cd-e7dd-424d-86a1-11312a46e756-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ac31983f-9a74-467f-a56e-22cca598e6e5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ac5fdc4f-25ee-45de-ad01-672236951e88-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ae944170-2af1-4d2d-ab64-6717d540afaf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/aea599e3-553c-4bfa-b17e-93200e176da6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/aeb746ec-6541-46c2-b645-e6e801180517-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/af185ebb-55e2-43c5-9a8e-4eb9aaa9437e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/af1cc302-88f1-433d-9c18-de32a2bc9434-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/af3c13ae-61ca-496e-98ee-898c76eef8e5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/af430dfc-b905-4a42-8dd7-1def0dbfea8e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/afbfa97c-ecb7-4702-99a7-5c4a5c4c2a6f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b00cfcc2-250e-48fb-a0af-ce17907a0745-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b0235b3a-c2f6-402d-aa02-e5333d82abfe-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b040495f-9837-4c5a-80e3-6350a18c293f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b08b5ddc-86c1-4bdf-abc5-2e0e4cf5a6a2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b0c34844-dc06-437c-ae65-5754af035a9d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b11f3589-e746-489c-bbac-6483064f0287-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b1222d3f-8b9d-4e78-bc0b-2aead86d66a1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b156d886-bdb4-4355-90aa-2c6e11138235-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b21f5a49-7ac6-40c2-8640-f2f64d7dc042-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b33444c5-9117-46e3-a42b-16cb9f041c4b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b401661e-6b15-4352-ab5e-1dd70aa3a59d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b49ef3b6-c77f-4715-8df5-00fee1aacddc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b5567b45-b5d4-44e5-a65a-632c888013dd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b55d2a78-89f6-44fc-a7e3-d31c8596843a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b59c8f0c-5efc-4947-beb0-0cf1d5edea9e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b5c43abc-10ca-4761-8399-f311d510669c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b678baa2-71f4-4077-85a2-fb40e89533d2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b771897f-6dce-44c0-ac91-6fda26b9e353-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b7bee816-2a9f-426c-ac6b-032b1475ba16-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b8aef5c8-c448-46ff-a807-6d2cc9647a15-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/b8b47ea6-e936-4a67-8bf8-4896557b152e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/baf63861-ab79-420e-af04-89272e5ba830-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bb40710e-793c-4fda-91ec-c92e7bf8b185-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bc35c3e3-0226-424b-9a36-3ad19b17b794-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bccc9f0e-5868-4353-8a40-829d54949d86-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bcdaf295-08e7-4277-a4c3-77cdd74f43e2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bce8ee76-9c80-4ee2-87e4-a40e67f8620c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bd61b8c9-bc7f-4d2f-92f1-666e24420200-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bdc904dc-2fff-4f24-a009-bc0a8cb64d27-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bdfe8fe1-39a7-4ac8-945a-561b15635867-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/be703fe9-af75-4ad4-a818-97204bb40f09-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bea2ea91-717c-43f5-983d-6fbad0e921bd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/bf59e22c-a79f-4f43-921c-95bc8b4e333a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c02cc2c9-cbc0-4356-88e5-7d953d94e847-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c13782f7-744c-4ef0-8754-c53cfda69c18-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c1509ab0-4ebd-40ae-bb32-6e2c78324c08-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c269797a-67ae-4b90-89bd-77a153a714b6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c2c0e557-ebd6-4563-b66f-67d2607267b8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c341a83a-b7d6-45d3-939f-3e3f517f1929-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c343d3f7-12f7-4a31-af5a-5fe61eb01f6d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c3f28b5a-85cd-4d79-a437-f4ca0ec350b8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c6644a42-df7b-4dfa-862f-96fb8dde4ccc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c7851e2d-f662-46f0-9c57-d76c2fe5d394-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c79ec395-a593-45f5-a61b-eee570bc661f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c881bfcf-b7f3-43d4-8a04-730507bee000-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c8ad0ce4-e761-43af-84a0-6611954cf3e4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/c9097440-707a-46b0-af12-456362e53fca-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ca15b926-87f8-454e-bf0e-1bcdea97d9ec-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ca8d0e02-ea6e-444a-b591-aea158dba8b3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/caa80041-9351-487a-b8dd-760ce4fe3450-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/cad9d80e-da65-4273-a447-3d52cdd3fc11-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/cb635c51-ba60-498f-8342-4cf8e5895eac-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/cb639962-321a-41ac-a5e2-9c7f8e207285-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/cb865070-1403-4156-a0a8-d998271a2c6a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ccac0d9c-4a6e-41e0-b2f8-d7f2bf2ea9bf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/cd62e8ac-8950-47d4-8f52-5010dbfd821c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ce621524-8333-47be-bdf9-e988dd2e51a1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/cea86d77-64cd-4a74-ac6a-ceba25ea92d1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/cec85151-3784-4243-a11f-9eda866aa456-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ceec8478-f985-4e51-9e5e-77957c5019f8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/cff4112c-ebe6-457e-aa95-5478aa734a1d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d07034c1-8690-4f89-a755-809f9211c7da-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d136a3f5-cf4a-439b-9072-395fd0f1ded0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d365ce5f-79c2-438d-a6b9-a66889fc1f52-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d4041c48-1e99-4d08-ae5d-fc51e5c25db2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d419e375-eac5-4bab-8165-dc2ed82e32fd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d47cc529-e843-4844-9e9b-d2ad4d83ad8d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d4f4297b-119b-4d26-954c-691e9f2232d4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d503352d-1cef-4dc8-9b7a-08289464b87b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d52e0beb-5bec-445b-9f85-f7c48cdbf1d4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d5b35648-ddc3-4775-8b31-47119d6742b3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d609b750-c44b-4c49-9c91-cf16c52fca07-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d6610243-c248-4bbd-9edd-b9cf2fef18f9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d7cbaf60-25df-479b-b5c4-980834e2f960-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d839d744-dd6c-4bf9-b95b-7bb6d6bf865a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/d8dc6430-d0bb-47b3-9ee3-87140704479a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/daf2fefd-433e-4ce4-8724-46d8837b39ff-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/db02cb22-daa0-49dc-b8af-8a99bae46133-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/dc7df281-fd98-49c0-9acf-fc69e8bc71a7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/dcfd14d7-9fe8-4614-95db-df075269795d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/dd2e6567-1d7f-4be0-aa40-1570df9c1602-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ddd004d1-a285-44d3-80f9-520d6c14a861-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/dec71e22-3255-4028-ac43-49d444bb8363-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/df5f0578-125e-4b49-9bcf-8b057633cca0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e063af6e-4426-4197-a1b3-80599ba23399-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e15717ce-3a3a-4885-aca4-009f0e200aa5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e17ea667-d550-4d14-bae8-eb0b09f9972d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e1b8d4f3-047f-41d3-93d8-561fcd08883f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e23c6f54-1e4b-4c88-9b15-e21a0ba43dba-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e2848596-c3bd-41ec-9fc9-64860cd5066d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e2876d96-90b3-4fa1-9252-b0874a23c0a9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e2fe07b9-d025-4e37-9830-807170b2b59c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e31c6fb9-2ef9-4e4a-90b0-66be12437cda-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e41da6fd-c6a7-4a44-a81d-d71eeb3f8fdf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e5bc914f-b39c-4ca1-bfe1-81e4deaea302-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e6218324-c055-463a-95c8-ccd9f612651b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e63feed8-3cac-4324-aaf4-7453160f07e4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e6d667ed-ffda-4f1b-958b-9005548cfc80-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e74fd33d-90b4-4606-8397-812446be1a75-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e7960d84-c035-441d-a6eb-1cd244c53d8f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e79ef49c-8a24-4b60-8819-b8d0aa0128d5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e7bfda21-41c9-4181-a64b-79f9541a4dcf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e7f895a4-d2ff-40b3-898c-0a2f7228fa47-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e7f9f66e-041a-44c4-8a2e-8b70d676d866-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e84d7fe6-12fe-4856-bebf-335ea32e8914-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e85a3e31-8ddc-4e62-9e82-dc26ef5cb489-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/e9ee0ce4-0a5f-4162-8f83-c144e39f5f11-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ea29708a-40a7-4ebe-96fd-ece1f6883095-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ea3f0382-7336-437e-9930-d17ce982d0ab-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ea69b1f1-6cf8-4849-b66a-2236f53ad403-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/eb2d910d-4fe8-4324-a0f2-687a86167d2c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/eb4efd4f-bf01-4e0e-a816-9969a0f2a238-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ebd57734-8ba3-4e7d-9acf-e6db8a123629-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ebefb33a-03fd-43cf-9d01-aa117d135d08-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ec176e93-97b4-4364-aab1-9743c7d7581d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ec7843cc-08e1-474a-931c-6908aa0c2aac-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ecd27009-072d-4abd-b039-35121b8b3098-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ecf31267-1191-4913-8c0e-033d6d812ee8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ecfaefaa-de30-4fbd-b5f3-d70084fbb971-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ee1e0032-c710-4e1f-9040-1c0703a8bf5e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ee1ff619-80f5-4af1-a2d1-b4a527f5e333-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ee369dd3-7ef5-4002-8947-53307ec2dbc7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/eea33aa1-f7a5-4b2b-93ef-3f7bcd4666a9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/eea80c99-c630-4092-ab97-c4333c66a7ad-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/eecdd135-cd05-40a0-8609-ef0a17e6b59b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/eece253b-eca4-407c-b4ff-317f13b70596-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/eef97d11-722d-4233-996a-e3ccb2310fb3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ef08c106-d7b8-4623-8094-0c05c2b397b6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ef206f8b-4228-4e4e-99a4-b9a2f998861a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ef4000dd-7afd-4225-ba9a-b8af9410b28c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ef9d435f-cdd5-4129-a70c-2bfd9c921583-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f16a6687-0d75-4d71-9308-1b22c62ce748-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f1850dd2-35dc-4370-83c5-ee43f7d4bd58-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f4219bb0-74e7-4f1b-9a47-c96814025d49-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f473c61d-7ba8-4359-b353-540ed5cb7cfb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f47bcaa2-08a8-4322-9407-f67f57b41b5a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f4dbaa44-d3eb-4c2f-8c94-5c9f0175e1b1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f52d8924-a783-481b-8cc8-52179cb01431-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f532efa1-697b-4b91-b067-cee890e6bcb5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f549e11f-3ee4-434a-a407-c3fd2e194cf2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f5aef2f1-0893-48bb-8cd2-12f750b4de49-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f6bddeb8-8cb5-4c99-bf80-fcaae3cf53aa-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f6cc0c83-7a75-4c19-9914-17f456f5422d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f7044f74-47ad-40b4-9b0a-6376b7c99bab-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/f914d660-bbfa-4b4b-a639-758c6c93a30e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fa1960c2-c113-4d91-b4a0-3ab01b827cb4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fa20bc83-80da-4a4c-b575-9cd788cb1221-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fa2c5df9-d660-43dc-9b6b-a0ce80a24f30-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fa2e7e69-45d8-4077-90a0-2cf72caa391d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fa69aa5a-30de-4b7e-b9f0-44363b04524b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fad20fa6-6083-4316-a402-1d7dba1d8383-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/faef32ff-3f28-4647-999c-9233c6116371-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fb17a5e0-24c0-41a1-9e09-5e2f70369589-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fbe87190-b399-4c00-a892-f33ba8ac12a0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fc07b12f-edad-4c79-ac06-d860099aec66-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fc3f7b4a-4f1b-4d70-b17c-14e17a735df5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fc9f75d3-2ab3-4e8d-9f76-b9e7465db06b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/fdd1efd8-1522-4471-b8e0-d9631850c186-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/allure-results/ff5da36c-904a-450c-9b60-38ad25150c1d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/main/resources/createData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/main/resources/junit-platform.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/main/resources/lotto.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/Interfacebase/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/Interfacebase/GetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/Interfacebase/接口自动化基础.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/datahome/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/test_services/BMPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/test_services/GetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/test_services/MockOnProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/test_services/RestAssuredTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/test_services/StubTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/apiobject/DepartmentApiObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/apiobject/TokenHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/task/EvnTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_03_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_05_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_06_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_07_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_07_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_08_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/src/test/java/com/wechat/utils/FakerUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/Demo_06_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/classes/createData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/classes/junit-platform.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/classes/lotto.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/Interfacebase/DemoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/Interfacebase/GetTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/datahome/LoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/test_services/BMPTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/test_services/GetTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/test_services/MockOnProxyTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/test_services/MockOnProxyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/test_services/RestAssuredTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/test_services/StubTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/apiobject/DepartmentApiObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/apiobject/TokenHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/task/EvnTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/DemoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_03_02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_04.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_05_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_06_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_07_02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_07_03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/testcases/Demo_08_01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java3/target/test-classes/com/wechat/utils/FakerUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_app/snowball/page/AppBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_app/snowball/page/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_app/snowball/page/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/UIAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject/ContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject/WebBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject0/ContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject0/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/littledog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framework/uiauto.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/通讯录批量导入模板.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/aapium自动化-预习0608" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium_before/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium_before/HelloWorldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium_before/SnowBallTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium_before/SnowBallTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium_before/ToastTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium自动化实战1-雪球App.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium自动化实战2-企业微信移动App" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/snowball/testcase/SearchPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_client/test_client-客户端测试-预习.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framework/BasePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framework/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framework/UI自动化-打造自己的测试框架.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framework/UI自动化框架-预习" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/0526-selenium自动化（预习）.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/0527-selenium自动化-cookie.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/0609-selenium自动化-PageObject实战.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/ide快捷操作" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/pageobject/TestAddMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/pageobject/TestContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/AlertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/BrowserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/FrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/JSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/UpLoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_app/snowball/page/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_app/snowball/page/MainPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_app/snowball/page/SearchPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_framework/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_framework/UIAuto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject/ContactPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject/MainPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject0/ContactPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject0/MainPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/littledog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/test_framework/uiauto.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/通讯录批量导入模板.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/2020-06-23T19-57-23_804.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/2020-06-23T19-58-15_809.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/2020-06-23T20-01-23_990.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/TEST-com.test_app.appium_before.HelloWorldTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/TEST-com.test_web.selenium.BrowserTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/TEST-com.test_web.selenium.JSTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/com.test_app.appium_before.HelloWorldTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/com.test_web.selenium.BrowserTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/surefire-reports/com.test_web.selenium.JSTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_app/appium/TestDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_app/appium_before/AssertTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_app/appium_before/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_app/appium_before/HelloWorldTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_app/appium_before/SnowBallTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_app/appium_before/SnowBallTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_app/appium_before/ToastTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_app/snowball/testcase/SearchPageTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_framework/BasePageTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/cookie/BrowserReuseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/cookie/TestSelenium.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/cookie/TestSeleniumTeacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/pageobject/TestAddMember.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/pageobject/TestContact.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/AiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/AlertTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/BaiduTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/BrowserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/FrameTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/InteractiveTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/JSTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/SeleniumFirstTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/UpLoadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/test_web/selenium/WindowsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/src/test/java/com/temp/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testnote/0617-UI自动化1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_7_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_7_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit5_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit5_2_13_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit_platform_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit_platform_2_13_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_20_v20190813.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_30_v20200611.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_20_v20190813.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_20_v20161216.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_20_v20190813.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_30_v20200611.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_20_v20190813.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_20_v20161216.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_24.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiDDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiObjectMethodModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiObjectModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiTestCaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/BaseApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/test_add.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/wework_api.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/wework_api_tags.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiObjectModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiTestCaseModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/BaseApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/suite/junit4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Junit4TestDemo/src/test/java/com/suite/junit4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Junit4TestDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Junit4TestDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Junit4TestDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Junit4TestDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/appium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/temp/temp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/temp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/src/test/java/com/appium/AssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/appium_before/AssertTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/src/test/java/com/appium/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/src/test/java/com/appium/HelloWorldTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/src/test/java/com/appium/SnowBallTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/src/test/java/com/appium/SnowBallTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/src/test/java/com/appium/ToastTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/src/test/java/com/appium/appium06-08.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/target/test-classes/com/appium/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/target/test-classes/com/appium/HelloWorldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/target/test-classes/com/appium/SnowBallTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/target/test-classes/com/appium/SnowBallTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium/target/test-classes/com/appium/ToastTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java3/java3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java3/java3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java3/target/test-classes/com/laura/TestAssertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/java3/target/test-classes/com/laura/TestAssertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java3/target/test-classes/com/laura/TestJunit5.class" beforeDir="false" afterPath="$PROJECT_DIR$/java3/target/test-classes/com/laura/TestJunit5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/cookie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seleniumTestDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seleniumTestDemo/seleniumTestDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/seleniumTestDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/0526-selenium.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/0527-selenium.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/0609实战笔记.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/cookie/TestDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/cookie/BrowserReuseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/cookie/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/cookie/TestSelenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/cookie/TestSeleniumTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/cookie/TestSeleniumTeacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/pageobject/ContactPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/pageobject/GetCookies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/pageobject/MainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/selenium/AiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/AiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/selenium/BaiduTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/BaiduTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/selenium/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/selenium/BrowserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/selenium/InteractiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/InteractiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/selenium/SeleniumFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/SeleniumFirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/selenium/WindowsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/selenium/WindowsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/testcase/TestContact.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/cookie1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/pageobject/ContactPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/pageobject/GetCookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_framework/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/pageobject/MainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/AiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/BaiduTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/BrowserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/InteractiveTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/SeleniumFirstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/TestDemoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/TestSelenium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/TestSeleniumTea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/selenium/WindowsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/suanfa/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/suanfa/TestKaoqing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/test-classes/com/testcase/TestContact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_app/snowball/page/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_app/snowball/page/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_app/snowball/page/SearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_framework/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_framework/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_framework/UIAuto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject/ContactPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject0/ContactPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTestDemo/target/classes/com/test_web/pageobject0/MainPage.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Junit4TestDemo/target/" />
     <ignored path="$PROJECT_DIR$/Junit5TestDemo/target/" />
@@ -941,7 +63,7 @@
     <session id="1040228569">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="6" />
@@ -957,11 +79,11 @@
           <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -974,14 +96,14 @@
           <entry key="csv" value="4" />
           <entry key="ide快捷操作" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="366" />
+          <entry key="java" value="379" />
           <entry key="json" value="5" />
           <entry key="log" value="1" />
           <entry key="lst" value="2" />
           <entry key="properties" value="1" />
           <entry key="txt" value="61" />
-          <entry key="xml" value="49" />
-          <entry key="yaml" value="10" />
+          <entry key="xml" value="50" />
+          <entry key="yaml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -989,12 +111,12 @@
           <entry key="CLASS" value="29" />
           <entry key="CSV" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="366" />
+          <entry key="JAVA" value="379" />
           <entry key="JSON" value="5" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="49" />
-          <entry key="YAML" value="10" />
+          <entry key="XML" value="50" />
+          <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -1003,23 +125,23 @@
           <entry key="csv" value="39" />
           <entry key="dummy" value="84" />
           <entry key="ide快捷操作" value="108" />
-          <entry key="java" value="36895" />
+          <entry key="java" value="39185" />
           <entry key="json" value="48" />
           <entry key="properties" value="352" />
           <entry key="txt" value="13021" />
-          <entry key="xml" value="1335" />
-          <entry key="yaml" value="366" />
+          <entry key="xml" value="1337" />
+          <entry key="yaml" value="617" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="39" />
-          <entry key="JAVA" value="36895" />
+          <entry key="JAVA" value="39185" />
           <entry key="JSON" value="48" />
           <entry key="PLAIN_TEXT" value="13459" />
           <entry key="Properties" value="352" />
-          <entry key="XML" value="1335" />
-          <entry key="YAML" value="366" />
+          <entry key="XML" value="1337" />
+          <entry key="YAML" value="617" />
         </counts>
       </usages-collector>
     </session>
@@ -1065,58 +187,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_06_01.java">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiObjectModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            <state relative-caret-position="220">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_08_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_05_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_07_03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java3/pom.xml">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiDDTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="22" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_01.java">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiObjectModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="23" column="2" selection-start-line="23" selection-end-line="23" selection-end-column="53" />
+            <state relative-caret-position="90">
+              <caret line="15" column="7" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/BaseApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1125,40 +242,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/apiobject/DepartmentApiObject.java">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/BaseApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="32" column="71" selection-start-line="31" selection-start-column="7" selection-end-line="32" selection-end-column="71" />
+            <state relative-caret-position="318">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_07_02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/main/resources/junit-platform.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/apiobject/TokenHelper.java">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiObjectMethodModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiTestCaseModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiTestCaseModelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/test_add.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -1187,20 +334,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/0527-selenium.txt" />
-        <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/0527-selenium自动化-cookie.txt" />
-        <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/0609实战笔记.txt" />
-        <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/0609-selenium自动化-PageObject实战.txt" />
-        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject0/ContactPage.java" />
-        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject/BasePage.java" />
-        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/AssertDemoTest.java" />
-        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/suite/AssertDemoTest.java" />
-        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/AssertDemoTest.java" />
-        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/testcaseinfo/MyFirstJunitTest.java" />
-        <option value="$PROJECT_DIR$/Junit5TestDemo/src/main/java/com/Person.java" />
-        <option value="$PROJECT_DIR$/Junit5TestDemo/src/main/java/com/Calculator.java" />
-        <option value="$PROJECT_DIR$/Junit5TestDemo/src/test/java/com/CalculatorTest.java" />
-        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject/ContactPage.java" />
         <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_web/pageobject/TestContact.java" />
         <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/aapium自动化-预习" />
         <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_app/aapium自动化-预习0608" />
@@ -1238,6 +371,20 @@
         <option value="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_07_03.java" />
         <option value="$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_08_01.java" />
         <option value="$PROJECT_DIR$/java3/pom.xml" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/http_api.yaml" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/wework_api_tags.yaml" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/test_add.yaml" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/wework_api_tags.yaml" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiObjectMethodModelTest.java" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiObjectModelTest.java" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/BaseApiTest.java" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiTestCaseModelTest.java" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiTestCaseModel.java" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/BaseApi.java" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiObjectModel.java" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiObjectMethodModel.java" />
+        <option value="$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiDDTest.java" />
       </list>
     </option>
   </component>
@@ -1267,10 +414,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-5" />
     <option name="width" value="1938" />
-    <option name="height" value="1028" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1280,6 +427,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1287,20 +436,114 @@
               <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
               <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test_framwork_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hogwarts" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test_framwork_service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/ideaproject/hogwarts/seleniumTestDemo/src/test/java/com/selenium/BaseTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595493408278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595678280767" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -1315,7 +558,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.test_app.snowball.page" />
+      <recent name="com.pageobject" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.test_framwork_service" />
       <recent name="com.test_framework" />
       <recent name="com" />
       <recent name="com.junit5" />
@@ -1330,29 +578,26 @@
       <recent name="com.test_framwork" />
       <recent name="com.test_app.snowball.page" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaproject\hogwarts\java3\target" />
-      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\test\java\com\test_web" />
-      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\test\java\com\test_web\selenium" />
-      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\test\java\com" />
-      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\main\resources\test_framework" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\main\resources\test_framwork_service" />
       <recent name="D:\ideaproject\hogwarts\java3\src\main\resources" />
       <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\main\resources" />
       <recent name="D:\ideaproject\hogwarts\testnote" />
       <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\main\java\pageobject1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test_framwork_service" />
       <recent name="com.wechat.testcases" />
       <recent name="com.wechat.apitest" />
       <recent name="com.temp" />
       <recent name="com.junit5.java0523" />
-      <recent name="com.testcase" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.test_app.snowball.page" />
-      <recent name="com.pageobject" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\main\resources\test_framwork_service\api" />
+      <recent name="D:\ideaproject\hogwarts\java3\target" />
+      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\test\java\com\test_web" />
+      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\test\java\com\test_web\selenium" />
+      <recent name="D:\ideaproject\hogwarts\seleniumTestDemo\src\test\java\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1367,18 +612,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Demo_08_01">
-    <configuration name="Demo_05_01.createDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java3" />
+  <component name="RunManager" selected="JUnit.BaseApiTest.load">
+    <configuration name="BaseApiTest.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTestDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wechat.testcases.*" />
+          <option name="PATTERN" value="com.test_framwork_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wechat.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.wechat.testcases.Demo_05_01" />
-      <option name="METHOD_NAME" value="createDepartment(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="PACKAGE_NAME" value="com.test_framwork_service" />
+      <option name="MAIN_CLASS_NAME" value="com.test_framwork_service.BaseApiTest" />
+      <option name="METHOD_NAME" value="load" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1445,14 +690,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Demo_05_01.createDepartment" />
       <item itemvalue="JUnit.Demo_06_01.listDepartment" />
       <item itemvalue="JUnit.Demo_07_02.createDepartment" />
       <item itemvalue="JUnit.Demo_07_03" />
       <item itemvalue="JUnit.Demo_08_01" />
+      <item itemvalue="JUnit.BaseApiTest.load" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BaseApiTest.load" />
         <item itemvalue="JUnit.Demo_08_01" />
         <item itemvalue="JUnit.Demo_07_03" />
         <item itemvalue="JUnit.Demo_07_02.createDepartment" />
@@ -1515,7 +761,8 @@
       <workItem from="1595039857556" duration="4724000" />
       <workItem from="1595232104094" duration="19152000" />
       <workItem from="1595309936436" duration="5649000" />
-      <workItem from="1595492179163" duration="1274000" />
+      <workItem from="1595492179163" duration="1957000" />
+      <workItem from="1595643624388" duration="9805000" />
     </task>
     <servers />
   </component>
@@ -1552,7 +799,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311006000" />
+    <option name="totallyTimeSpent" value="321494000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1564,15 +811,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1550" height="822" extended-state="0" />
+    <frame x="-4" y="0" width="1549" height="823" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.23190348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.23541248" />
       <window_info id="Structure" order="1" sideWeight="0.5019531" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32892805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.17433752" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966466" weight="0.2695783" />
@@ -1582,9 +830,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32892805" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18345864" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.17914832" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033534" side_tool="true" weight="0.39156628" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.24546723" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.2452276" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32918397" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1648,121 +896,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framework/FactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framework/BasePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_app/snowball/page/AppBasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject/WebBasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestNGTestDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Junit5TestDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/test_services/StubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/test_services/RestAssuredTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java3/src/main/resources/lotto.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/test_services/MockOnProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_web/pageobject/ContactPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/UIAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java3/src/main/java/com/junit5/Calc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/junit5/Param2Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1842,9 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
           <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1883,9 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="76" column="18" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1917,11 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="83" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1946,6 +1068,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_08_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -2004,17 +1133,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java3/src/test/java/com/wechat/testcases/Demo_08_01.java">
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        <state relative-caret-position="-154">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/UIAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java3/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="36" column="10" selection-start-line="35" selection-start-column="6" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiObjectMethodModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/wework_api_tags.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/wework_api.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/resources/test_framwork_service/api/test_add.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framework/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiObjectModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="7" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/BaseApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/test/java/com/test_framwork_service/ApiTestCaseModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiObjectMethodModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/BaseApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiTestCaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiObjectModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumTestDemo/src/main/java/com/test_framwork_service/ApiDDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
