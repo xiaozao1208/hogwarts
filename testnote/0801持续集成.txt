@@ -1,0 +1,187 @@
+持续集成环境搭建：
+
+part1 Jenkins 接口功能自动化测试持续集成
+part2 Jenkins 接口压力自动化测试持续集成
+part3 持续集成体系建设
+
+
+part1 Jenkins 接口功能自动化测试持续集成
+
+
+接口功能自动化测试项目源码讲解
+
+测试用例设置：
+    模拟接口测试用例通过 actual_value == expect_value
+    模拟接口测试用例失败 actual_value != expect_value
+    模拟跳过接口测试： throw new SkipException("");
+    本地代码讲解和运行演示-Demo
+
+运行环境配置：
+    接口测试的运行时环境 与Jenkins Server使用同一台设备，便于演示 ？？不一样会怎么样？
+    事先需要安装Groovy 和Groovy Post build插件
+    Jenkins 新建自有风格的项目
+    配置git地址链接（ssh格式），添加Checkout to sub-directory
+    添加构建代码 mvn clean install -Dtest:TestExecption  这个最后是测试类名
+
+    添加Groovy Postbuild 到 Postbuild Actions中，添加代码
+    System.setProperty("hudson.model.DirectoryBrowserSupport.CSP"，"")
+    用户jenkins嵌入展示TestNG的测试报告
+    添加Publish Html report 到Post-build Actions中
+
+具体配置：
+    Groovy Postbuild解决js页面渲染无法在Jenkins中运行的问题
+    接口自动化构建代码
+    Publish Html report
+    Groovy Postbuild
+    TestNG 测试报告
+
+    Demo展示：创建Jenkins接口自动化测试项目
+        项目配置
+        Jenkins中配置TestNG测试报告演示
+        运行构建效果演示
+
+本章小结：
+    自动化测试实例：java代码
+    利用java常用package中的类发起接口请求，获取接口返回值，解析Json字段，检验结果正确性
+    利用testNG框架来运行接口测试，生产漂亮可定制的测试报告
+    Jenkins任务：源码同步，运行maven任务，展示测试报告
+    maven 框架触发构建和运行testNG测试；
+    Groovy PostBuild 解决报告js，无法在jenkins 中被渲染的问题
+
+
+
+part2 Jenkins 接口压力自动化测试持续集成
+
+基本准备：
+    压测脚本开发工具：Jmeter
+    压测脚本位置：iInterface/jmx/iInterface.jmx
+
+要点：
+    将jmeter压测任务集成进Jenkins
+    通过Jenkins运行Jmeter任务
+    在Jenkins上展示测试报告
+
+代码讲解：
+    Jmeter压测脚本
+    逻辑控制
+    自动化压测代码
+    与Jenkins交互部分代码
+
+    执行：脚本位置：iInterface/jmx/auto_stress_test.sh
+    jenkins接口压力测试任务：
+        新建自由风格任务
+        添加git源码库地址
+        添加自动化压测运行代码
+        导出压测报告
+
+    添加Groovy Postbuild解决js页面渲染无法在Jenkins中运行的问题
+    System.setProperty("hudson.model.DirectoryBrowserSupport.CSP"，"")
+
+part2总结：
+    自动化压测--jmeter +shell
+    jenkins与 jmeter压测，环境要求
+    自动压测运行逻辑
+    Jmeter输出压力测试报告
+    压力测试报告与jenkins集成
+    Jenkins任务：源码同步，任务运行，展示测试报告
+
+
+java
+maven
+junit5
+rest-assured
+aalure-report
+
+
+https://github.com/princeqjzh/iInterface    复制到本地
+jenkins 接口压力自动化实战测试
+http://www.weather.com.cn/data/cityinfo/
+获取北京，上海，深圳
+get请求
+Jmeter
+
+
+运行的节点是什么意思？
+master
+确定哪个分支吗?
+
+Execute shell
+. ~/.bash_profile
+cd iInterface/jmx
+sh auto_stress_test.sh
+
+压测报告设置
+Post-build Action 添加压测报告路径和名称
+
+
+part3 持续集成体系建设
+
+实战任务的故事
+从源码制作出可运行的App,支持测试工作
+各种自动任务：
+    Daily Build打包
+    Daily Build发布
+    Daily Build UI自动化测试（BVT -Build Verification Test）
+利用技术来帮助做“杂活儿”
+
+优势：
+    重复性定式劳动任务，减少人力参与，提升工作效率
+    BUild不再是阻碍测试进度的因素
+    自动化重用率高，维护频率低
+
+（部分公司是运维在做   会的话，工作比较主动；不知道动作是比较被动）
+研发是会比较信服的----定位问题底层和详细，修改问题比较容易和方便；
+
+使用场景：
+开发上游 源码
+输入 测试包
+需要持续集成，将源码变成测试包
+测试包---帮助判断测试包是否可用--如果不可用，尽早发现和告之；
+
+
+涉及的技术点：
+Android App 构建
+Android SDK使用
+安卓模拟器或者真机
+Appium自动化测试
+Jenkins持续集成
+shell脚本开发
+java程序开发
+git（github的使用）
+
+
+测试App构建，打包过程
+    Android 应用（列子程序）
+    源码位置：
+    安卓打包的目标文件
+
+java
+Gradle
+Appium
+
+Gradle 不熟悉，去熟悉一下；
+sh  gradlew XXXXX
+
+
+
+Execute shell
+
+. ~/.bash_profile
+pwd=`pwd`
+apk=$pwd/../A.....想对路径
+
+{adb uninstall com.appsflyer.androidsampleapp} ||
+{ echo 'no package on the app'}
+# 先卸载某个文件
+adb install $apk
+# 坑：如果本来没有这个测试包，执行这条命令会报错，需要处理一下；
+
+
+
+小结：
+App持续集成体系
+接口功能与压力自动化测试持续集成
+Jenkins + Junit5
+Jenkins + Jmeter
+从源码到可测包，外加自动化测试验证的全流程持续集成提测建设
+

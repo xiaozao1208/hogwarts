@@ -22,7 +22,7 @@
             <groupId>net.lightbody.bmp</groupId>
             <artifactId>browsermob-core</artifactId>
             <version>2.1.5</version>
-            <scope>test</scope>
+            <!--<scope>test</scope>-->
         </dependency>
 
         <!--wiremock 依赖包-->
@@ -30,7 +30,7 @@
             <groupId>com.github.tomakehurst</groupId>
             <artifactId>wiremock-jre8</artifactId>
             <version>2.27.0</version>
-            <scope>test</scope>
+            <!--<scope>test</scope>-->
         </dependency>
 
         <!--rest-assured 是什么？-->
@@ -38,14 +38,13 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>4.2.0</version>
-            <scope>test</scope>
+            <!--<scope>test</scope>-->
         </dependency>
 
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-path</artifactId>
             <version>4.2.0</version>
-            <scope>test</scope>
         </dependency>
 
 
@@ -53,16 +52,15 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>xml-path</artifactId>
             <version>4.2.0</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-schema-validator</artifactId>
             <version>4.2.0</version>
-            <scope>test</scope>
         </dependency>
 
+        <!--junit5-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -70,24 +68,36 @@
             <scope>compile</scope>
         </dependency>
 
-        <!-- 如果使用junit5套件执行 需求添加下面这两个依赖-->
+
+        <!--可以选择selenium -java和chrome-driver两个依赖； 或者选择一个 selenium-server 一个依赖-->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>RELEASE</version>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.14.0</version>
         </dependency>
 
         <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-runner</artifactId>
-            <version>RELEASE</version>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>3.14.0</version>
         </dependency>
+
 
         <!--java中的ObjectMapper 必须引用3个jar包（jackson-databind，jackson-core，jackson-annotations）-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version> 2.9.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.8</version>
+            <version> 2.9.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version> 2.9.9</version>
         </dependency>
 
         <dependency>
@@ -95,7 +105,7 @@
             <artifactId>jackson-dataformat-yaml</artifactId>
             <version>2.9.9</version>
         </dependency>
-
+        <!--以上两个依赖，版本需要一致，不一致会报错，无法运行-->
 
 
 
@@ -132,6 +142,16 @@
                             <name>junit.jupiter.extensions.autodetection.enabled</name>
                             <value>true</value>
                         </property>
+
+                        <!--allure 报告路径调整-->
+                        <property>
+                            <name>allure.results.directory</name>
+                            <value>${project.build.directory}/allure-results</value>
+                        </property>
+                        <property>
+                            <name>allure.link.issue.pattern</name>
+                            <value>https://example.org/issue/{}</value>
+                        </property>
                     </systemProperties>
                 </configuration>
                 <dependencies>
@@ -143,7 +163,7 @@
                     <dependency>
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
-                        <!--<version>${aspectj.version}</version>-->
+                        <version>1.9.2</version>
                     </dependency>
                 </dependencies>
             </plugin>

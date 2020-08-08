@@ -7,10 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/TestNGTestDemo/TestNGTestDemo.iml" filepath="$PROJECT_DIR$/TestNGTestDemo/TestNGTestDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/appium/appium.iml" filepath="$PROJECT_DIR$/appium/appium.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hogwarts.iml" filepath="$PROJECT_DIR$/.idea/hogwarts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iAppBVT/iAppBVT.iml" filepath="$PROJECT_DIR$/iAppBVT/iAppBVT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iInterface/iInterface.iml" filepath="$PROJECT_DIR$/iInterface/iInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/java3/java3.iml" filepath="$PROJECT_DIR$/java3/java3.iml" />
       <module fileurl="file://$PROJECT_DIR$/javatest/javatest.iml" filepath="$PROJECT_DIR$/javatest/javatest.iml" />
       <module fileurl="file://$PROJECT_DIR$/seleniumTestDemo/seleniumTestDemo.iml" filepath="$PROJECT_DIR$/seleniumTestDemo/seleniumTestDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/temp/temp.iml" filepath="$PROJECT_DIR$/temp/temp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaceAuto/seleniumTestDemo (1).iml" filepath="$PROJECT_DIR$/interfaceAuto/seleniumTestDemo (1).iml" />
     </modules>
   </component>
 </project>

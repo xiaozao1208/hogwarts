@@ -7,22 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="appium" />
+        <module name="iAppBVT" />
+        <module name="iInterface" />
         <module name="java3" />
         <module name="javatest" />
         <module name="Junit4TestDemo" />
         <module name="Junit5TestDemo" />
         <module name="seleniumTestDemo" />
-        <module name="temp" />
+        <module name="seleniumTestDemo (1)" />
         <module name="TestNGTestDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="appium" target="1.5" />
+      <module name="iAppBVT" target="1.5" />
+      <module name="iInterface" target="1.5" />
       <module name="java3" target="1.8" />
       <module name="javatest" target="1.5" />
       <module name="Junit4TestDemo" target="1.8" />
       <module name="Junit5TestDemo" target="1.8" />
       <module name="seleniumTestDemo" target="8" />
+      <module name="seleniumTestDemo (1)" target="1.8" />
       <module name="temp" target="8" />
       <module name="TestNGTestDemo" target="1.5" />
     </bytecodeTargetLevel>

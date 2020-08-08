@@ -14,8 +14,14 @@
         <option value="$PROJECT_DIR$/seleniumTestDemo/pom.xml" />
         <option value="$PROJECT_DIR$/appium/pom.xml" />
         <option value="$PROJECT_DIR$/temp/pom.xml" />
+        <option value="$PROJECT_DIR$/interfaceAuto/pom.xml" />
+        <option value="$PROJECT_DIR$/iInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/iAppBVT/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/interfaceAuto/src/main/resources/test_framwork_service/testcase/test_add.yaml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

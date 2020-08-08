@@ -17,16 +17,40 @@
 
     <dependencies>
 
+        <!--junit5-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
+            <artifactId>junit-jupiter</artifactId>
             <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+        <!--&lt;!&ndash; 如果使用junit5套件执行 需求添加下面这两个依赖&ndash;&gt;-->
+        <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>RELEASE</version>
         </dependency>
 
         <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-runner</artifactId>
-            <version>RELEASE</version>
+        <groupId>org.junit.platform</groupId>
+        <artifactId>junit-platform-runner</artifactId>
+        <version>RELEASE</version>
+        </dependency>
+
+        <!-- testyaml 文件需要的几个依赖-->
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>2.9.8</version>
         </dependency>
 
     </dependencies>

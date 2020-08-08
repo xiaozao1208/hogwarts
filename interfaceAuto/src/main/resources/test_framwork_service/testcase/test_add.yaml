@@ -1,0 +1,15 @@
+#apiObjectModel
+name: add
+description: something description
+steps:
+  - api: wework
+    action: get_token
+
+  - api: wework
+    action: get_token
+    params:
+      tagid: [1,2,3]
+
+  - actual: jsonpath
+    expect: 3
+    matcher: equalTo

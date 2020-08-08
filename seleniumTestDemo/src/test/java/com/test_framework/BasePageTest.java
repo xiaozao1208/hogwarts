@@ -66,7 +66,7 @@ class BasePageTest {
     void run(UIAuto uiauto) {
         uiauto.steps.stream().forEach(m->{
             if(m.keySet().contains("click")){
-                click(m.get("click").toString());
+//                click(m.get("click").toString());
             }
 
         });

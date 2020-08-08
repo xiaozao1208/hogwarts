@@ -24,7 +24,7 @@ public class BrowserReuseTest {
          */
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("debuggerAddress", "127.0.0.1:9222");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         //driver = new ChromeDriver(); 如果不想复用浏览器，直接去掉options即可；
     }
 

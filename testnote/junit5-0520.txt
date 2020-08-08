@@ -1,0 +1,195 @@
+JUnit5框架组成
+    JUnit5包含 JUnit Platform,JUnit Jupiter,JUnit Vintage
+    JUnit Platform:这是JUnit向测试平台演进，提供平台功能的模块。
+        通过JUnit Platform，其他的自动化测试引擎或开发人员自己定制的引擎都可以接入Junit实现对接和执行。
+
+    JUnit Jupiter：Junit5的核心，既承载了Junit4原有功能的演讲，同时包含了很多丰富的新特性使得Junit自动
+        化测试更丰富和强大。
+        Jupiter中的新特性是本节课重点；
+        Jupiter本身也是一个基于Junit Platform的引擎实现。
+
+    JUnit Vintage
+        对junit3和junit4版本的兼容的测试引擎
+
+
+JUnit5新特性
+    嵌套单元测试 -suite
+    Lambda支持  -jdk1.8支持 断言处支持
+    参数化测试
+    重复测试
+    动态测试
+
+
+JUnit5注解
+    1.依赖导入 pom.xml中的<dependencies>中添加
+
+    2.注解
+    @Test
+    @BeforeAll  static
+    @AfterAll   static
+    @BeforeEach
+    @AfterEach
+    @Nested      内嵌测试执行顺序倒序
+    @Disabled    类似 Ignore
+    @DisplayName 测试展示处的名称
+    @ParameterizedTest
+    @RepeatedTest 重复执行次数
+
+JUnit5执行过程
+
+套件测试
+    junit5套件执行
+        @RunWith(JUnitPlatform.class)
+        @SelectPackages({"com.packageA","com.packageB"})
+        @IncludePackages("包名")
+
+    实际：
+    @RunWith(JUnitPlatform.class)
+    @SelectPackages({
+            "com.testcaseinfo"
+    })
+    @IncludePackages({
+            "com.testcaseinfo.testcase",
+            "com.testcaseinfo.testcase2"
+    })
+    public class Junit5SuiteDemo1Test {
+    }
+
+
+        @RunWith(JUnitPlatform.class)
+        @SelectClasses({A.class,B.class,C.class})
+        @IncludeTags("production")
+        @ExcludeTags("Prod")
+
+    实际：
+    @RunWith(JUnitPlatform.class)
+    @SelectClasses({
+            Junit5Demo2Test.class
+    })
+    @IncludeTags({
+            "testdemo"
+    })
+    public class Junit5SuiteDemo2Test {
+
+    }
+
+
+0520 单元测试-junit5
+JUnit5-参数化和数据驱动
+    1.参数化
+    pom环境配置 以下三个依赖：
+    junit-jupiter-engine: Junit的核心测试引擎
+    junit-jupiter-params: 编写参数化测试所需要的依赖包
+    junit-platform-launcher: 从IDE(InteliJ/Eclipses)等运行时所需要的启动器
+
+
+    @ParameterizedTest
+
+    @ValueSource  简单情况
+    @EnumSource   枚举
+    @MethodSource  复杂的使用比较多
+    @CsvSource      csv读取
+    @CsvFileSource  通过文件读取
+    @ArgumentsSource
+    具体使用敲下代码。。。。。。
+
+
+   动态测试用例
+   Dynamic系列；
+
+   2.数据驱动
+   数据驱动比参数化更深一步，深入到哪里？
+
+    2.1 使用methodsource参数化测试
+
+    2.2 使用yaml数据驱动
+    Jackson可以轻松的将Java对象转换成json对象和xml文档，同样也可以将json、xml转换成Java对象
+    ObjectMapper类是Jackson库的主要类
+
+Q1: @ParameterizedTest()  后面加的括号？？
+Q2: junit-jupiter-api 依赖添加后，运行报错"No tests were found"? -不加可以执行？？
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.2.0</version>
+        <scope>test</scope>
+    </dependency>
+
+Q3:complier 不匹配，在配置中添加maven配置？？
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>2.3.2</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+F4/项目右击-open module settings-language level-选择什么？
+F4/项目右击-open module settings-module SDK-两种有什么区别？
+
+
+
+
+Q1:TestYaml中的yaml测试执行失败？ -导包错误；
+    import com.fasterxml.jackson.core.type.TypeReference
+    与老师的代码比对，以上导入的包错误；
+    个别地方少些了 ",typeReference"
+    引用的类名拼写错误；
+
+Param2Test类中的问题：
+Q2:/* 这里执行的时候怎么是7 ，不是5？？*/
+       @ParameterizedTest
+       @NullSource
+       @EmptySource
+       @ValueSource(strings={" ","   ","\t","\n",""})
+       void nullEmptyAndBlankStrings(String text){
+           assertTrue(text == null || text.trim().isEmpty());
+       }
+Q3:枚举中类和参数的填写？？？
+/*枚举的类：ChronoUnit.class, TemporalUnit是前者的父类 */
+       @ParameterizedTest
+       @EnumSource(ChronoUnit.class)
+       void  testWithEnumSource(TemporalUnit unit){
+           assertNotNull(unit);
+       }
+
+
+Q4: /* 方法类参数化
+       * ？？为什么此处为空，断言是成功的？
+       * */
+       @ParameterizedTest
+       @MethodSource
+       void  testWithDefaultLocalMethodSource(String argument){
+           assertNotNull(argument);
+       }
+
+       static Stream<String> testWithDefaultLocalMethodSource(){
+           return Stream.of("apple","banana","");
+       }
+Q5：CsvFileSource  上传的csv文件乱码，处理下？？？？？？
+Q6:  /**
+         *这种组合形式的使用场景？？
+         */
+        @ParameterizedTest
+        @MethodSource("stringIntAndListProvider")
+        void  testWithMultiArgMethodSource(String str, int num, List<String> list){
+              assertEquals(5,str.length());
+              assertTrue(num >=1 && num <=3);
+              assertEquals(2,list.size());
+        }
+
+
+        static  Stream<Arguments> stringIntAndListProvider(){
+            return Stream.of(
+                    arguments("apple",1, Arrays.asList("a","b")),
+                    arguments("lemon",3,Arrays.asList("x","y"))
+            );
+        }
+
+Q7: @ArgumentsSource(MyArgumentsProvider.class) 什么意思?不明白，什么场景下使用？

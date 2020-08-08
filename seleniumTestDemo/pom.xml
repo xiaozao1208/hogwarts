@@ -104,6 +104,18 @@
         <version>2.9.9</version>
     </dependency>
 
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20170516</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>1.2.61</version>
+    </dependency>
+
     <!--rest-assured 是什么？-->
     <dependency>
         <groupId>io.rest-assured</groupId>
@@ -133,12 +145,5 @@
         <version>4.2.0</version>
         <!--<scope>test</scope>-->
     </dependency>
-
-
-
-
 </dependencies>
-
-
-
 </project>

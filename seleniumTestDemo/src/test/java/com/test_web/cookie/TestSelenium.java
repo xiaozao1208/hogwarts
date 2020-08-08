@@ -13,7 +13,7 @@ import java.util.Locale;
 import java.util.StringTokenizer;
 
 /**
- * cookie登录，其他免登录
+ * 目标：实现cookie登录，其他免登录
  * 第一步：复用浏览器，使用saveCookie方法获取cookie;
  * 第二步：不复用浏览器，使用loadCookie方法调用获取的cookie.txt;
  * 第三步：进行重新登录；（如果cookie失效了，重新获取新的cookie）

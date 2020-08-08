@@ -6,10 +6,13 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.test_framework.UIAuto;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 //自动化领域的建模
 public class BasePage {
+    List<PageObjectModel> pages = new ArrayList<>();
 
     public  void  click(HashMap<String,Object> map){
         System.out.println("click");

@@ -8,9 +8,9 @@ class FactoryTest {
 
     @Test
     void create(){
-        BasePage web = new BasePage("web");
-        UIAuto uiAuto = web.load("/test_framework/uiauto.yaml");
-        web.run(uiAuto);
+//        BasePage web = new BasePage("web");
+//        UIAuto uiAuto = web.load("/test_framework/uiauto.yaml");
+//        web.run(uiAuto);
     }
 
 }
